@@ -1,0 +1,1114 @@
+{
+  "orders": [
+    {
+      "package": null,
+      "subjectItemAttachment": {
+        "item": "Antigripal Vick Vita...",
+        "totalItems": 12,
+        "extraItems": 11
+      },
+      "cancellationReason": null,
+      "paymentData": {
+        "giftCards": [],
+        "transactions": [
+          {
+            "isActive": true,
+            "transactionId": "0F6D45F4EA6C4443AC34112CE500CDD3",
+            "merchantName": "C***********",
+            "payments": [
+              {
+                "id": "C825A1D24E4A4F61B990DC9B6EAF213E",
+                "paymentSystem": "2",
+                "paymentSystemName": "V***",
+                "value": 30406,
+                "installments": 1,
+                "referenceValue": 30406,
+                "cardHolder": null,
+                "cardNumber": null,
+                "firstDigits": "424242",
+                "lastDigits": "4242",
+                "cvv2": null,
+                "expireMonth": null,
+                "expireYear": null,
+                "url": null,
+                "giftCardId": null,
+                "giftCardName": null,
+                "giftCardCaption": null,
+                "redemptionCode": null,
+                "group": "creditCard",
+                "tid": "trhiajqixtnde2w0ukeq",
+                "dueDate": null,
+                "connectorResponses": {
+                  "Tid": "trhiajqixtnde2w0ukeq",
+                  "ReturnCode": "200",
+                  "Message": null,
+                  "authId": "801585",
+                  "nsu": "trhiajqixtnde2w0ukeq",
+                  "acquirer": "Openpay"
+                },
+                "giftCardProvider": null,
+                "giftCardAsDiscount": null,
+                "koinUrl": null,
+                "accountId": "9C9F75B114784B37B2C4EF5BBEEC1386",
+                "parentAccountId": "9C9F75B114784B37B2C4EF5BBEEC1386",
+                "bankIssuedInvoiceIdentificationNumber": null,
+                "bankIssuedInvoiceIdentificationNumberFormatted": null,
+                "bankIssuedInvoiceBarCodeNumber": null,
+                "bankIssuedInvoiceBarCodeType": null,
+                "billingAddress": {
+                  "postalCode": "1****",
+                  "city": "C***** d* M*****",
+                  "state": "CIUDAD DE MÉXICO",
+                  "country": "MEX",
+                  "street": "A****** E******* N******* M*******",
+                  "number": "8****",
+                  "neighborhood": "G******",
+                  "complement": "",
+                  "reference": null,
+                  "geoCoordinates": [-51.4779552, -0.0039779]
+                },
+                "paymentOrigin": null
+              }
+            ]
+          }
+        ]
+      },
+      "items": [
+        {
+          "additionalInfo": {
+            "categoriesIds": "/11/1101/110101/",
+            "productClusterId": "842,892",
+            "commercialConditionId": "1",
+            "dimension": {
+              "cubicweight": 0,
+              "height": 0,
+              "length": 0,
+              "weight": 0,
+              "width": 0
+            },
+            "brandName": "F****************",
+            "brandId": "6068",
+            "offeringInfo": null,
+            "offeringType": null,
+            "offeringTypeId": null
+          },
+          "sellerSku": "3332578",
+          "priceTable": null,
+          "priceValidUntil": "2025-04-02T21:02:56Z",
+          "callCenterOperator": null,
+          "commission": 0,
+          "freightCommission": 0,
+          "taxCode": "1",
+          "catalogProvider": "vrn:vtex.catalog-api-proxy:-:chedrauimxqa:master:/proxy/authenticated/catalog/pvt/sku/stockkeepingunitbyid/3332578",
+          "uniqueId": "745CC6E074C147669EA0876D599AED3C",
+          "id": "3332578",
+          "productId": "3332578",
+          "productRefId": "3332578",
+          "refId": "3332578",
+          "ean": "2512661",
+          "name": "M********************",
+          "skuName": "M********************",
+          "modalType": "ELECTRONICS",
+          "parentItemIndex": null,
+          "parentAssemblyBinding": null,
+          "assemblies": [],
+          "tax": 0,
+          "price": 8600,
+          "listPrice": 8600,
+          "manualPrice": null,
+          "manualPriceAppliedBy": null,
+          "sellingPrice": 860,
+          "rewardValue": 0,
+          "isGift": false,
+          "preSaleDate": null,
+          "productCategoryIds": "/11/1101/110101/",
+          "productCategories": {
+            "11": "Cuidado e higiene personal",
+            "1101": "Cuidado capilar",
+            "110101": "Shampoos"
+          },
+          "quantity": 4,
+          "seller": "chedrauimxqa0232",
+          "sellerChain": ["chedrauimxqa0232"],
+          "imageUrl": "https://chedrauimxqa.vteximg.com.br/arquivos/ids/25959428-132-132/2512661_00.jpg?v=638079419485330000",
+          "detailUrl": "/null-3332578/p",
+          "components": [],
+          "bundleItems": [],
+          "attachments": [
+            {
+              "name": "N****************",
+              "content": {
+                "Notas-de-producto": "No hay notas del pedido"
+              }
+            }
+          ],
+          "attachmentOfferings": [
+            {
+              "name": "N****************",
+              "required": true,
+              "schema": {
+                "Notas-de-producto": {
+                  "maximumNumberOfCharacters": 1000,
+                  "domain": []
+                }
+              }
+            }
+          ],
+          "offerings": [],
+          "priceTags": [],
+          "availability": "available",
+          "measurementUnit": "kg",
+          "unitMultiplier": 0.1,
+          "manufacturerCode": "2512661",
+          "priceDefinition": {
+            "calculatedSellingPrice": 860,
+            "total": 3440,
+            "sellingPrices": [
+              {
+                "value": 860,
+                "quantity": 4
+              }
+            ]
+          }
+        },
+        {
+          "additionalInfo": {
+            "categoriesIds": "/3/301/30103/",
+            "productClusterId": "842,892",
+            "commercialConditionId": "1",
+            "dimension": {
+              "cubicweight": 0,
+              "height": 6.8,
+              "length": 5.8,
+              "weight": 0.2,
+              "width": 5.8
+            },
+            "brandName": "G*****",
+            "brandId": "2700",
+            "offeringInfo": null,
+            "offeringType": null,
+            "offeringTypeId": null
+          },
+          "sellerSku": "3104309",
+          "priceTable": null,
+          "priceValidUntil": "2025-04-02T21:02:56Z",
+          "callCenterOperator": null,
+          "commission": 0,
+          "freightCommission": 0,
+          "taxCode": null,
+          "catalogProvider": "vrn:vtex.catalog-api-proxy:-:chedrauimxqa:master:/proxy/authenticated/catalog/pvt/sku/stockkeepingunitbyid/3104309",
+          "uniqueId": "B7B3FDC04A1A4F4496ADC4B43D7A52EF",
+          "id": "3104309",
+          "productId": "3103461",
+          "productRefId": null,
+          "refId": "3104309",
+          "ean": "750100091039",
+          "name": "P***********************************************************************************************************",
+          "skuName": "P*******************************************************",
+          "modalType": "ELECTRONICS",
+          "parentItemIndex": null,
+          "parentAssemblyBinding": null,
+          "assemblies": [],
+          "tax": 0,
+          "price": 1090,
+          "listPrice": 1090,
+          "manualPrice": null,
+          "manualPriceAppliedBy": null,
+          "sellingPrice": 1090,
+          "rewardValue": 0,
+          "isGift": false,
+          "preSaleDate": null,
+          "productCategoryIds": "/3/301/30103/",
+          "productCategories": {
+            "3": "Bebes",
+            "301": "Formulas y alimentos infantiles",
+            "30103": "Papillas y jugos infantiles"
+          },
+          "quantity": 3,
+          "seller": "chedrauimxqa0232",
+          "sellerChain": ["chedrauimxqa0232"],
+          "imageUrl": "https://chedrauimxqa.vteximg.com.br/arquivos/ids/29112881-132-132/7501000910397_00.jpg?v=638259926281570000",
+          "detailUrl": "/papilla-gerber-cosecha-natural-etapa-2-manzana-113g-3103461/p",
+          "components": [],
+          "bundleItems": [],
+          "attachments": [],
+          "attachmentOfferings": [],
+          "offerings": [],
+          "priceTags": [],
+          "availability": "available",
+          "measurementUnit": "un",
+          "unitMultiplier": 1,
+          "manufacturerCode": "7500347",
+          "priceDefinition": {
+            "calculatedSellingPrice": 1090,
+            "total": 3270,
+            "sellingPrices": [
+              {
+                "value": 1090,
+                "quantity": 3
+              }
+            ]
+          }
+        },
+        {
+          "additionalInfo": {
+            "categoriesIds": "/3/301/30103/",
+            "productClusterId": "842,892",
+            "commercialConditionId": "1",
+            "dimension": {
+              "cubicweight": 0,
+              "height": 9.5,
+              "length": 5.9,
+              "weight": 0.17,
+              "width": 5.9
+            },
+            "brandName": "G*****",
+            "brandId": "2700",
+            "offeringInfo": null,
+            "offeringType": null,
+            "offeringTypeId": null
+          },
+          "sellerSku": "3097023",
+          "priceTable": null,
+          "priceValidUntil": "2025-04-02T21:02:56Z",
+          "callCenterOperator": null,
+          "commission": 0,
+          "freightCommission": 0,
+          "taxCode": null,
+          "catalogProvider": "vrn:vtex.catalog-api-proxy:-:chedrauimxqa:master:/proxy/authenticated/catalog/pvt/sku/stockkeepingunitbyid/3097023",
+          "uniqueId": "7C9027552A0349EBA9652F62763EB660",
+          "id": "3097023",
+          "productId": "3085287",
+          "productRefId": null,
+          "refId": "3097023",
+          "ean": "75004729",
+          "name": "P****************************************************************************************************************",
+          "skuName": "P************************************************************",
+          "modalType": "ELECTRONICS",
+          "parentItemIndex": null,
+          "parentAssemblyBinding": null,
+          "assemblies": [],
+          "tax": 0,
+          "price": 1450,
+          "listPrice": 1450,
+          "manualPrice": null,
+          "manualPriceAppliedBy": null,
+          "sellingPrice": 1450,
+          "rewardValue": 0,
+          "isGift": false,
+          "preSaleDate": null,
+          "productCategoryIds": "/3/301/30103/",
+          "productCategories": {
+            "3": "Bebes",
+            "301": "Formulas y alimentos infantiles",
+            "30103": "Papillas y jugos infantiles"
+          },
+          "quantity": 1,
+          "seller": "chedrauimxqa0232",
+          "sellerChain": ["chedrauimxqa0232"],
+          "imageUrl": "https://chedrauimxqa.vteximg.com.br/arquivos/ids/29112820-132-132/75004729_00.jpg?v=638259926141870000",
+          "detailUrl": "/papilla-gerber-cosecha-natural-etapa-3-manzana-170g-3085287/p",
+          "components": [],
+          "bundleItems": [],
+          "attachments": [],
+          "attachmentOfferings": [],
+          "offerings": [],
+          "priceTags": [],
+          "availability": "available",
+          "measurementUnit": "un",
+          "unitMultiplier": 1,
+          "manufacturerCode": "7500472",
+          "priceDefinition": {
+            "calculatedSellingPrice": 1450,
+            "total": 1450,
+            "sellingPrices": [
+              {
+                "value": 1450,
+                "quantity": 1
+              }
+            ]
+          }
+        },
+        {
+          "additionalInfo": {
+            "categoriesIds": "/4/403/40303/",
+            "productClusterId": "842,892",
+            "commercialConditionId": "1",
+            "dimension": {
+              "cubicweight": 0,
+              "height": 13.8,
+              "length": 15,
+              "weight": 0.25,
+              "width": 17.6
+            },
+            "brandName": "V***",
+            "brandId": "6634",
+            "offeringInfo": null,
+            "offeringType": null,
+            "offeringTypeId": null
+          },
+          "sellerSku": "3201433",
+          "priceTable": null,
+          "priceValidUntil": "2025-04-02T21:02:56Z",
+          "callCenterOperator": null,
+          "commission": 0,
+          "freightCommission": 0,
+          "taxCode": "1",
+          "catalogProvider": "vrn:vtex.catalog-api-proxy:-:chedrauimxqa:master:/proxy/authenticated/catalog/pvt/sku/stockkeepingunitbyid/3201433",
+          "uniqueId": "14FDD12BDEB144089184BF6EBC63AB54",
+          "id": "3201433",
+          "productId": "3201433",
+          "productRefId": "3201433",
+          "refId": "3201433",
+          "ean": "750619510269",
+          "name": "A*************************************************",
+          "skuName": "A*************************************************",
+          "modalType": "ELECTRONICS",
+          "parentItemIndex": null,
+          "parentAssemblyBinding": null,
+          "assemblies": [],
+          "tax": 0,
+          "price": 6100,
+          "listPrice": 6100,
+          "manualPrice": null,
+          "manualPriceAppliedBy": null,
+          "sellingPrice": 6100,
+          "rewardValue": 0,
+          "isGift": false,
+          "preSaleDate": null,
+          "productCategoryIds": "/4/403/40303/",
+          "productCategories": {
+            "4": "Farmacia",
+            "403": "Medicamentos",
+            "40303": "Respiratorios"
+          },
+          "quantity": 2,
+          "seller": "chedrauimxqa0232",
+          "sellerChain": ["chedrauimxqa0232"],
+          "imageUrl": "https://chedrauimxqa.vteximg.com.br/arquivos/ids/28913592-132-132/7506195102695_00.jpg?v=638243613462570000",
+          "detailUrl": "/antigripal-vick-vitapyrena-manzana-canela-5-sobres-3201433/p",
+          "components": [],
+          "bundleItems": [],
+          "attachments": [],
+          "attachmentOfferings": [],
+          "offerings": [],
+          "priceTags": [],
+          "availability": "available",
+          "measurementUnit": "un",
+          "unitMultiplier": 1,
+          "manufacturerCode": "750619510269",
+          "priceDefinition": {
+            "calculatedSellingPrice": 6100,
+            "total": 12200,
+            "sellingPrices": [
+              {
+                "value": 6100,
+                "quantity": 2
+              }
+            ]
+          }
+        },
+        {
+          "additionalInfo": {
+            "categoriesIds": "/11/1101/110101/",
+            "productClusterId": "842,892",
+            "commercialConditionId": "1",
+            "dimension": {
+              "cubicweight": 0,
+              "height": 0,
+              "length": 0,
+              "weight": 0,
+              "width": 0
+            },
+            "brandName": "F****************",
+            "brandId": "6068",
+            "offeringInfo": null,
+            "offeringType": null,
+            "offeringTypeId": null
+          },
+          "sellerSku": "3190819",
+          "priceTable": null,
+          "priceValidUntil": "2025-04-02T21:02:56Z",
+          "callCenterOperator": null,
+          "commission": 0,
+          "freightCommission": 0,
+          "taxCode": "1",
+          "catalogProvider": "vrn:vtex.catalog-api-proxy:-:chedrauimxqa:master:/proxy/authenticated/catalog/pvt/sku/stockkeepingunitbyid/3190819",
+          "uniqueId": "AA9E2BE9DA354211B711EEA14E4F5F13",
+          "id": "3190819",
+          "productId": "3190819",
+          "productRefId": "3190819",
+          "refId": "3190819",
+          "ean": "4128",
+          "name": "M*******************",
+          "skuName": "M*******************",
+          "modalType": "ELECTRONICS",
+          "parentItemIndex": null,
+          "parentAssemblyBinding": null,
+          "assemblies": [],
+          "tax": 0,
+          "price": 8490,
+          "listPrice": 8490,
+          "manualPrice": null,
+          "manualPriceAppliedBy": null,
+          "sellingPrice": 1698,
+          "rewardValue": 0,
+          "isGift": false,
+          "preSaleDate": null,
+          "productCategoryIds": "/11/1101/110101/",
+          "productCategories": {
+            "11": "Cuidado e higiene personal",
+            "1101": "Cuidado capilar",
+            "110101": "Shampoos"
+          },
+          "quantity": 2,
+          "seller": "chedrauimxqa0232",
+          "sellerChain": ["chedrauimxqa0232"],
+          "imageUrl": "https://chedrauimxqa.vteximg.com.br/arquivos/ids/25950899-132-132/2505160_00.jpg?v=638079387993630000",
+          "detailUrl": "/null-3190819/p",
+          "components": [],
+          "bundleItems": [],
+          "attachments": [
+            {
+              "name": "N****************",
+              "content": {
+                "Notas-de-producto": "No hay notas del pedido"
+              }
+            }
+          ],
+          "attachmentOfferings": [
+            {
+              "name": "N****************",
+              "required": true,
+              "schema": {
+                "Notas-de-producto": {
+                  "maximumNumberOfCharacters": 1000,
+                  "domain": []
+                }
+              }
+            }
+          ],
+          "offerings": [],
+          "priceTags": [],
+          "availability": "available",
+          "measurementUnit": "kg",
+          "unitMultiplier": 0.2,
+          "manufacturerCode": "2505160",
+          "priceDefinition": {
+            "calculatedSellingPrice": 1698,
+            "total": 3396,
+            "sellingPrices": [
+              {
+                "value": 1698,
+                "quantity": 2
+              }
+            ]
+          }
+        }
+      ],
+      "sellers": [
+        {
+          "subSellerId": "1",
+          "fulfillmentEndpoint": "https://achjve9cgn.us-east-1.awsapprunner.com/api/fulfillment?an=chedrauimxqa0232&affiliateId=SLR&sc=1",
+          "id": "chedrauimxqa0232",
+          "name": "C******************************",
+          "logo": ""
+        }
+      ],
+      "giftRegistryData": null,
+      "receiptData": null,
+      "contextData": null,
+      "marketPlaceOrderId": "",
+      "marketPlaceOrderGroup": null,
+      "marketplaceServicesEndpoint": null,
+      "orderFormId": "6b508f299cdf4e05aa660663ed13769a",
+      "sequence": "503471",
+      "affiliateId": "",
+      "status": "",
+      "callCenterOperator": "",
+      "userProfileId": "363c4fb7-6290-485a-b860-179abfd570f0",
+      "hostName": "c***********",
+      "creationVersion": null,
+      "creationEnvironment": null,
+      "lastChangeVersion": null,
+      "workflowInstanceId": null,
+      "marketplacePaymentValue": null,
+      "orderId": "1422290503471-01",
+      "orderGroup": "1422290503471",
+      "state": "payment-approved",
+      "isCheckedIn": false,
+      "sellerOrderId": "SLR-1422290503471-01",
+      "storeId": null,
+      "checkedInPickupPointId": null,
+      "value": 30406,
+      "totals": [
+        {
+          "id": "Items",
+          "name": "T*****************",
+          "value": 23756
+        },
+        {
+          "id": "Discounts",
+          "name": "T******************",
+          "value": 0
+        },
+        {
+          "id": "Shipping",
+          "name": "C********************",
+          "value": 6650
+        },
+        {
+          "id": "Tax",
+          "name": "C*********************",
+          "value": 0
+        }
+      ],
+      "clientProfileData": {
+        "email": "b*******************************@c*.v***.c**.b*",
+        "firstName": "M****",
+        "lastName": "C*******",
+        "document": null,
+        "documentType": null,
+        "phone": "+5***********",
+        "corporateName": null,
+        "tradeName": null,
+        "corporateDocument": null,
+        "stateInscription": null,
+        "corporatePhone": null,
+        "isCorporate": false,
+        "profileCompleteOnLoading": true,
+        "profileErrorOnLoading": false,
+        "customerClass": null
+      },
+      "ratesAndBenefitsData": {
+        "rateAndBenefitsIdentifiers": [],
+        "teaser": []
+      },
+      "shippingData": {
+        "address": {
+          "addressType": "residential",
+          "receiverName": "M**** C*******",
+          "addressId": "91P1hvJviM",
+          "isDisposable": false,
+          "postalCode": "1****",
+          "city": "C***** d* M*****",
+          "state": "CIUDAD DE MÉXICO",
+          "country": "MEX",
+          "street": "A****** E******* N******* M*******",
+          "number": "8****",
+          "neighborhood": "G******",
+          "complement": "",
+          "reference": null,
+          "geoCoordinates": [-51.4779552, -0.0039779]
+        },
+        "logisticsInfo": [
+          {
+            "itemIndex": 0,
+            "selectedSla": "ENTREGA A DOMICILIO - CHEDRAUI SELECTO MEXICO POLANCO",
+            "selectedDeliveryChannel": "delivery",
+            "addressId": "91P1hvJviM",
+            "slas": [
+              {
+                "id": "ENTREGA A DOMICILIO - CHEDRAUI SELECTO MEXICO POLANCO",
+                "deliveryChannel": "delivery",
+                "name": "E****************************************************",
+                "deliveryIds": [
+                  {
+                    "courierId": "HD0232",
+                    "warehouseId": "WH0232",
+                    "dockId": "DK0232",
+                    "courierName": "D********************************************",
+                    "quantity": 4,
+                    "kitItemDetails": []
+                  }
+                ],
+                "shippingEstimate": "0d",
+                "shippingEstimateDate": "2024-04-04T14:00:00",
+                "lockTTL": "10d",
+                "availableDeliveryWindows": [],
+                "deliveryWindow": {
+                  "startDateUtc": "2024-04-04T14:00:00+00:00",
+                  "endDateUtc": "2024-04-04T15:59:59+00:00",
+                  "price": 0,
+                  "lisPrice": 0,
+                  "tax": 0
+                },
+                "price": 950,
+                "listPrice": 950,
+                "tax": 0,
+                "pickupStoreInfo": {
+                  "isPickupStore": false,
+                  "friendlyName": null,
+                  "address": null,
+                  "additionalInfo": null,
+                  "dockId": null
+                },
+                "pickupPointId": null,
+                "pickupDistance": null,
+                "polygonName": "C*************************",
+                "transitTime": "0d"
+              }
+            ],
+            "shipsTo": ["MEX"],
+            "itemId": "3332578",
+            "deliveryChannels": [
+              {
+                "id": "delivery"
+              },
+              {
+                "id": "pickup-in-point"
+              }
+            ]
+          },
+          {
+            "itemIndex": 1,
+            "selectedSla": "ENTREGA A DOMICILIO - CHEDRAUI SELECTO MEXICO POLANCO",
+            "selectedDeliveryChannel": "delivery",
+            "addressId": "91P1hvJviM",
+            "slas": [
+              {
+                "id": "ENTREGA A DOMICILIO - CHEDRAUI SELECTO MEXICO POLANCO",
+                "deliveryChannel": "delivery",
+                "name": "E****************************************************",
+                "deliveryIds": [
+                  {
+                    "courierId": "HD0232",
+                    "warehouseId": "WH0232",
+                    "dockId": "DK0232",
+                    "courierName": "D********************************************",
+                    "quantity": 3,
+                    "kitItemDetails": []
+                  }
+                ],
+                "shippingEstimate": "0d",
+                "shippingEstimateDate": "2024-04-04T14:00:00",
+                "lockTTL": "10d",
+                "availableDeliveryWindows": [],
+                "deliveryWindow": {
+                  "startDateUtc": "2024-04-04T14:00:00+00:00",
+                  "endDateUtc": "2024-04-04T15:59:59+00:00",
+                  "price": 0,
+                  "lisPrice": 0,
+                  "tax": 0
+                },
+                "price": 1795,
+                "listPrice": 1795,
+                "tax": 0,
+                "pickupStoreInfo": {
+                  "isPickupStore": false,
+                  "friendlyName": null,
+                  "address": null,
+                  "additionalInfo": null,
+                  "dockId": null
+                },
+                "pickupPointId": null,
+                "pickupDistance": null,
+                "polygonName": "C*************************",
+                "transitTime": "0d"
+              }
+            ],
+            "shipsTo": ["MEX"],
+            "itemId": "3104309",
+            "deliveryChannels": [
+              {
+                "id": "delivery"
+              },
+              {
+                "id": "pickup-in-point"
+              }
+            ]
+          },
+          {
+            "itemIndex": 2,
+            "selectedSla": "ENTREGA A DOMICILIO - CHEDRAUI SELECTO MEXICO POLANCO",
+            "selectedDeliveryChannel": "delivery",
+            "addressId": "91P1hvJviM",
+            "slas": [
+              {
+                "id": "ENTREGA A DOMICILIO - CHEDRAUI SELECTO MEXICO POLANCO",
+                "deliveryChannel": "delivery",
+                "name": "E****************************************************",
+                "deliveryIds": [
+                  {
+                    "courierId": "HD0232",
+                    "warehouseId": "WH0232",
+                    "dockId": "DK0232",
+                    "courierName": "D********************************************",
+                    "quantity": 1,
+                    "kitItemDetails": []
+                  }
+                ],
+                "shippingEstimate": "0d",
+                "shippingEstimateDate": "2024-04-04T14:00:00",
+                "lockTTL": "10d",
+                "availableDeliveryWindows": [],
+                "deliveryWindow": {
+                  "startDateUtc": "2024-04-04T14:00:00+00:00",
+                  "endDateUtc": "2024-04-04T15:59:59+00:00",
+                  "price": 0,
+                  "lisPrice": 0,
+                  "tax": 0
+                },
+                "price": 509,
+                "listPrice": 509,
+                "tax": 0,
+                "pickupStoreInfo": {
+                  "isPickupStore": false,
+                  "friendlyName": null,
+                  "address": null,
+                  "additionalInfo": null,
+                  "dockId": null
+                },
+                "pickupPointId": null,
+                "pickupDistance": null,
+                "polygonName": "C*************************",
+                "transitTime": "0d"
+              }
+            ],
+            "shipsTo": ["MEX"],
+            "itemId": "3097023",
+            "deliveryChannels": [
+              {
+                "id": "delivery"
+              },
+              {
+                "id": "pickup-in-point"
+              }
+            ]
+          },
+          {
+            "itemIndex": 3,
+            "selectedSla": "ENTREGA A DOMICILIO - CHEDRAUI SELECTO MEXICO POLANCO",
+            "selectedDeliveryChannel": "delivery",
+            "addressId": "91P1hvJviM",
+            "slas": [
+              {
+                "id": "ENTREGA A DOMICILIO - CHEDRAUI SELECTO MEXICO POLANCO",
+                "deliveryChannel": "delivery",
+                "name": "E****************************************************",
+                "deliveryIds": [
+                  {
+                    "courierId": "HD0232",
+                    "warehouseId": "WH0232",
+                    "dockId": "DK0232",
+                    "courierName": "D********************************************",
+                    "quantity": 2,
+                    "kitItemDetails": []
+                  }
+                ],
+                "shippingEstimate": "0d",
+                "shippingEstimateDate": "2024-04-04T14:00:00",
+                "lockTTL": "10d",
+                "availableDeliveryWindows": [],
+                "deliveryWindow": {
+                  "startDateUtc": "2024-04-04T14:00:00+00:00",
+                  "endDateUtc": "2024-04-04T15:59:59+00:00",
+                  "price": 0,
+                  "lisPrice": 0,
+                  "tax": 0
+                },
+                "price": 1496,
+                "listPrice": 1496,
+                "tax": 0,
+                "pickupStoreInfo": {
+                  "isPickupStore": false,
+                  "friendlyName": null,
+                  "address": null,
+                  "additionalInfo": null,
+                  "dockId": null
+                },
+                "pickupPointId": null,
+                "pickupDistance": null,
+                "polygonName": "C*************************",
+                "transitTime": "0d"
+              }
+            ],
+            "shipsTo": ["MEX"],
+            "itemId": "3201433",
+            "deliveryChannels": [
+              {
+                "id": "delivery"
+              },
+              {
+                "id": "pickup-in-point"
+              }
+            ]
+          },
+          {
+            "itemIndex": 4,
+            "selectedSla": "ENTREGA A DOMICILIO - CHEDRAUI SELECTO MEXICO POLANCO",
+            "selectedDeliveryChannel": "delivery",
+            "addressId": "91P1hvJviM",
+            "slas": [
+              {
+                "id": "ENTREGA A DOMICILIO - CHEDRAUI SELECTO MEXICO POLANCO",
+                "deliveryChannel": "delivery",
+                "name": "E****************************************************",
+                "deliveryIds": [
+                  {
+                    "courierId": "HD0232",
+                    "warehouseId": "WH0232",
+                    "dockId": "DK0232",
+                    "courierName": "D********************************************",
+                    "quantity": 2,
+                    "kitItemDetails": []
+                  }
+                ],
+                "shippingEstimate": "0d",
+                "shippingEstimateDate": "2024-04-04T14:00:00",
+                "lockTTL": "10d",
+                "availableDeliveryWindows": [],
+                "deliveryWindow": {
+                  "startDateUtc": "2024-04-04T14:00:00+00:00",
+                  "endDateUtc": "2024-04-04T15:59:59+00:00",
+                  "price": 0,
+                  "lisPrice": 0,
+                  "tax": 0
+                },
+                "price": 1900,
+                "listPrice": 1900,
+                "tax": 0,
+                "pickupStoreInfo": {
+                  "isPickupStore": false,
+                  "friendlyName": null,
+                  "address": null,
+                  "additionalInfo": null,
+                  "dockId": null
+                },
+                "pickupPointId": null,
+                "pickupDistance": null,
+                "polygonName": "C*************************",
+                "transitTime": "0d"
+              }
+            ],
+            "shipsTo": ["MEX"],
+            "itemId": "3190819",
+            "deliveryChannels": [
+              {
+                "id": "delivery"
+              },
+              {
+                "id": "pickup-in-point"
+              }
+            ]
+          }
+        ],
+        "selectedAddresses": [
+          {
+            "addressType": "residential",
+            "receiverName": "M**** C*******",
+            "addressId": "91P1hvJviM",
+            "isDisposable": false,
+            "postalCode": "1****",
+            "city": "C***** d* M*****",
+            "state": "CIUDAD DE MÉXICO",
+            "country": "MEX",
+            "street": "A****** E******* N******* M*******",
+            "number": "8****",
+            "neighborhood": "G******",
+            "complement": "",
+            "reference": null,
+            "geoCoordinates": [-51.4779552, -0.0039779]
+          }
+        ],
+        "availableAddresses": [
+          {
+            "addressType": "residential",
+            "receiverName": "M**** C*******",
+            "addressId": "91P1hvJviM",
+            "isDisposable": false,
+            "postalCode": "1****",
+            "city": "C***** d* M*****",
+            "state": "CIUDAD DE MÉXICO",
+            "country": "MEX",
+            "street": "A****** E******* N******* M*******",
+            "number": "8****",
+            "neighborhood": "G******",
+            "complement": "",
+            "reference": null,
+            "geoCoordinates": [-51.4779552, -0.0039779]
+          }
+        ],
+        "pickupPoints": [
+          {
+            "friendlyName": "C***********************",
+            "address": {
+              "addressType": "pickup",
+              "receiverName": null,
+              "addressId": "PP0232",
+              "isDisposable": true,
+              "postalCode": "1****",
+              "city": "M***** H******",
+              "state": "CDMX",
+              "country": "MEX",
+              "street": "A** M***** D* C******** S******* N** 3**  C*** I*********",
+              "number": "",
+              "neighborhood": "C*** I*********",
+              "complement": "",
+              "reference": null,
+              "geoCoordinates": [-51.4779552, -0.0039779]
+            },
+            "additionalInfo": "Obligatorio presentar identificación",
+            "id": "chedrauimxqa0232_PP0232",
+            "businessHours": [
+              {
+                "DayOfWeek": 0,
+                "OpeningTime": "08:00:00",
+                "ClosingTime": "22:00:00"
+              },
+              {
+                "DayOfWeek": 1,
+                "OpeningTime": "08:00:00",
+                "ClosingTime": "22:00:00"
+              },
+              {
+                "DayOfWeek": 2,
+                "OpeningTime": "08:00:00",
+                "ClosingTime": "22:00:00"
+              },
+              {
+                "DayOfWeek": 3,
+                "OpeningTime": "08:00:00",
+                "ClosingTime": "22:00:00"
+              },
+              {
+                "DayOfWeek": 4,
+                "OpeningTime": "08:00:00",
+                "ClosingTime": "22:00:00"
+              },
+              {
+                "DayOfWeek": 5,
+                "OpeningTime": "08:00:00",
+                "ClosingTime": "22:00:00"
+              },
+              {
+                "DayOfWeek": 6,
+                "OpeningTime": "08:00:00",
+                "ClosingTime": "22:00:00"
+              }
+            ]
+          }
+        ]
+      },
+      "clientPreferencesData": {
+        "locale": "es-MX",
+        "optinNewsLetter": false
+      },
+      "commercialConditionData": null,
+      "marketingData": {
+        "utmSource": null,
+        "utmMedium": null,
+        "utmCampaign": null,
+        "utmipage": null,
+        "utmiPart": null,
+        "utmiCampaign": null,
+        "coupon": null,
+        "marketingTags": ["vtexSocialSelling", "Checkout Nuevo 2022"]
+      },
+      "storePreferencesData": {
+        "countryCode": "MEX",
+        "saveUserData": false,
+        "timeZone": "Central Standard Time (Mexico)",
+        "currencyCode": "MXN",
+        "currencyLocale": 2058,
+        "currencySymbol": "$",
+        "currencyFormatInfo": {
+          "currencyDecimalDigits": 2,
+          "currencyDecimalSeparator": ".",
+          "currencyGroupSeparator": ",",
+          "currencyGroupSize": 3,
+          "startsWithCurrencySymbol": true
+        }
+      },
+      "openTextField": null,
+      "invoiceData": null,
+      "itemMetadata": null,
+      "taxData": null,
+      "customData": {
+        "customApps": [
+          {
+            "fields": {
+              "skuData": "{\"3190819\":{\"substituteType\":2,\"note\":\"Notas: No hay notas del pedido\"},\"3332578\":{\"substituteType\":2,\"note\":\"Notas: No hay notas del pedido\"}}",
+              "substituteType": "2"
+            },
+            "id": "substitutedata",
+            "major": 1
+          },
+          {
+            "fields": {
+              "email": "m****.c*******@j****.i*",
+              "id": "Not Found"
+            },
+            "id": "mimonedero",
+            "major": 1
+          },
+          {
+            "fields": {
+              "instrucciones-de-entrega": "false",
+              "recibe-por-ti": "[{nombre: 'false', telefono: false}]"
+            },
+            "id": "especificaciones-de-entrega",
+            "major": 1
+          }
+        ]
+      },
+      "hooksData": null,
+      "changeData": null,
+      "subscriptionData": null,
+      "salesChannel": "1",
+      "followUpEmail": "a**********************************.v***.c**.b*",
+      "creationDate": "2024-04-02T21:07:02.2889235Z",
+      "lastChange": "2024-04-02T21:07:26.9005372Z",
+      "timeZoneCreationDate": "2024-04-02T15:07:02.2889235",
+      "timeZoneLastChange": "2024-04-02T15:07:26.9005372",
+      "isCompleted": true,
+      "merchantName": null,
+      "userType": "",
+      "roundingError": 0,
+      "allowEdition": false,
+      "allowCancellation": false,
+      "isUserDataVisible": false,
+      "allowChangeSeller": false
+    }
+  ],
+  "ordersUrl": "http://chedrauimxqa.myvtex.com/account#/orders",
+  "orderGroup": "1422290503471",
+  "subjectItemAttachment": {
+    "item": "Antigripal Vick Vita...",
+    "totalItems": 12,
+    "extraItems": 11
+  },
+  "split": false,
+  "totalValue": 30406,
+  "callCenterOperatorData": null,
+  "_accountInfo": {
+    "MainAccountName": "c***********",
+    "AccountName": "c***********",
+    "Cnpj": "00000000000000",
+    "Id": "39a0ca44-613f-4bd1-a2c1-18a7f56ce738",
+    "AppId": null,
+    "IsActive": true,
+    "IsOperating": false,
+    "CreationDate": "2021-07-12T20:21:02.2640646Z",
+    "OperationDate": null,
+    "CompanyName": "T*******************************",
+    "TradingName": "T*******************************",
+    "City": null,
+    "Complement": null,
+    "Country": null,
+    "State": null,
+    "Address": null,
+    "District": null,
+    "Number": null,
+    "PostalCode": null,
+    "Licenses": [7],
+    "ParentAccountId": null,
+    "ParentAccountName": null,
+    "InactivationDate": null,
+    "Platform": "vtex",
+    "Privacy": null,
+    "HasPiiRestriction": false,
+    "Infra": null,
+    "Sponsor": "b28b1fad-9597-46b6-b5e5-7a70c6d23317"
+  }
+}
