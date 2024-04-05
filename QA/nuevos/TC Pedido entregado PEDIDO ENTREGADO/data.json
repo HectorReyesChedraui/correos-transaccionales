@@ -1,0 +1,2070 @@
+{
+  "package": {
+    "items": [
+      {
+        "itemIndex": 0,
+        "quantity": 2,
+        "price": 5950,
+        "description": null,
+        "unitMultiplier": 0
+      },
+      {
+        "itemIndex": 1,
+        "quantity": 1,
+        "price": 8950,
+        "description": null,
+        "unitMultiplier": 0
+      },
+      {
+        "itemIndex": 2,
+        "quantity": 1,
+        "price": 4990,
+        "description": null,
+        "unitMultiplier": 0
+      },
+      {
+        "itemIndex": 3,
+        "quantity": 1,
+        "price": 7400,
+        "description": null,
+        "unitMultiplier": 0
+      },
+      {
+        "itemIndex": 4,
+        "quantity": 2,
+        "price": 1850,
+        "description": null,
+        "unitMultiplier": 0
+      },
+      {
+        "itemIndex": 5,
+        "quantity": 3,
+        "price": 2500,
+        "description": null,
+        "unitMultiplier": 0
+      },
+      {
+        "itemIndex": 6,
+        "quantity": 1,
+        "price": 1400,
+        "description": null,
+        "unitMultiplier": 0
+      },
+      {
+        "itemIndex": 7,
+        "quantity": 1,
+        "price": 900,
+        "description": null,
+        "unitMultiplier": 0
+      },
+      {
+        "itemIndex": 8,
+        "quantity": 1,
+        "price": 2100,
+        "description": null,
+        "unitMultiplier": 0
+      },
+      {
+        "itemIndex": 9,
+        "quantity": 1,
+        "price": 3890,
+        "description": null,
+        "unitMultiplier": 0
+      },
+      {
+        "itemIndex": 11,
+        "quantity": 1,
+        "price": 5000,
+        "description": null,
+        "unitMultiplier": 0
+      }
+    ],
+    "courier": null,
+    "invoiceNumber": "3049449",
+    "invoiceValue": 67430,
+    "invoiceUrl": null,
+    "issuanceDate": "2023-10-06T06:00:00+00:00",
+    "trackingNumber": "puente de ixtla 30, puente colorado 01730",
+    "invoiceKey": null,
+    "trackingUrl": null,
+    "embeddedInvoice": "",
+    "type": "Output",
+    "courierStatus": {
+      "status": "ok",
+      "finished": true,
+      "deliveredDate": "2023-10-06T23:52:18.7765836Z",
+      "data": []
+    },
+    "cfop": null,
+    "restitutions": {},
+    "volumes": null,
+    "EnableInferItems": null
+  },
+  "subjectItemAttachment": {
+    "item": "Papel Higiénico Prem...",
+    "totalItems": 15,
+    "extraItems": 14
+  },
+  "cancellationReason": null,
+  "items": [
+    {
+      "additionalInfo": {
+        "categoriesIds": "/1/112/11202/",
+        "productClusterId": "9949,11010",
+        "commercialConditionId": "1",
+        "dimension": {
+          "cubicweight": 0,
+          "height": 2,
+          "length": 2,
+          "weight": 0.1,
+          "width": 2
+        },
+        "brandName": "P******",
+        "brandId": "5158",
+        "offeringInfo": null,
+        "offeringType": null,
+        "offeringTypeId": null
+      },
+      "sellerSku": "3735509",
+      "priceTable": null,
+      "priceValidUntil": "2024-10-06T19:26:35Z",
+      "callCenterOperator": null,
+      "commission": 0,
+      "freightCommission": 0,
+      "taxCode": null,
+      "catalogProvider": "vrn:vtex.catalog-api-proxy:-:chedrauimx:master:/proxy/authenticated/catalog/pvt/sku/stockkeepingunitbyid/3735509",
+      "uniqueId": "6D84DA62B09E4B7384DA08E5DEC9AD74",
+      "id": "3735509",
+      "productId": "3735509",
+      "productRefId": "3735509",
+      "refId": "3735509",
+      "ean": "17502247332642",
+      "name": "P****************************************************",
+      "skuName": "P****************************************************",
+      "modalType": "ELECTRONICS",
+      "parentItemIndex": null,
+      "parentAssemblyBinding": null,
+      "assemblies": [],
+      "tax": 0,
+      "price": 8600,
+      "listPrice": 8600,
+      "manualPrice": null,
+      "manualPriceAppliedBy": null,
+      "sellingPrice": 5950,
+      "rewardValue": 0,
+      "isGift": false,
+      "preSaleDate": null,
+      "productCategoryIds": "/1/112/11202/",
+      "productCategories": {
+        "1": "Supermercado",
+        "112": "Desechables",
+        "11202": "Papel higienico y pañuelos"
+      },
+      "quantity": 2,
+      "seller": "chedrauimx0098",
+      "sellerChain": ["chedrauimx0098"],
+      "imageUrl": "http://chedrauimx.vteximg.com.br/arquivos/ids/19942079-132-132/7502247332645_00.jpg?v=638319644903400000",
+      "detailUrl": "/papel-higienico-premier-rendiplus-12-rollos-300-hojas-3735509/p",
+      "components": [],
+      "bundleItems": [],
+      "attachments": [],
+      "attachmentOfferings": [],
+      "offerings": [],
+      "priceTags": [
+        {
+          "name": "d***************************************************************************************",
+          "value": -5300,
+          "rawValue": -53,
+          "isPercentual": false,
+          "identifier": "29bdd1b2-466a-4724-b83a-f14aec9482fa"
+        }
+      ],
+      "availability": "available",
+      "measurementUnit": "un",
+      "unitMultiplier": 1,
+      "manufacturerCode": "750224733264",
+      "priceDefinition": {
+        "calculatedSellingPrice": 5950,
+        "total": 11900,
+        "sellingPrices": [
+          {
+            "value": 5950,
+            "quantity": 2
+          }
+        ]
+      }
+    },
+    {
+      "additionalInfo": {
+        "categoriesIds": "/1/105/10501/",
+        "productClusterId": "6011",
+        "commercialConditionId": "1",
+        "dimension": {
+          "cubicweight": 0,
+          "height": 2,
+          "length": 2,
+          "weight": 0.1,
+          "width": 2
+        },
+        "brandName": "L***",
+        "brandId": "3620",
+        "offeringInfo": null,
+        "offeringType": null,
+        "offeringTypeId": null
+      },
+      "sellerSku": "3012017",
+      "priceTable": null,
+      "priceValidUntil": "2024-10-06T19:26:35Z",
+      "callCenterOperator": null,
+      "commission": 0,
+      "freightCommission": 0,
+      "taxCode": null,
+      "catalogProvider": "vrn:vtex.catalog-api-proxy:-:chedrauimx:master:/proxy/authenticated/catalog/pvt/sku/stockkeepingunitbyid/3012017",
+      "uniqueId": "4A4F2F5526D54F09B83A3E4F073B4BC4",
+      "id": "3012017",
+      "productId": "3012017",
+      "productRefId": "3012017",
+      "refId": "3012017",
+      "ean": "17501020500087",
+      "name": "L******************************",
+      "skuName": "L******************************",
+      "modalType": "ELECTRONICS",
+      "parentItemIndex": null,
+      "parentAssemblyBinding": null,
+      "assemblies": [],
+      "tax": 0,
+      "price": 8950,
+      "listPrice": 8950,
+      "manualPrice": null,
+      "manualPriceAppliedBy": null,
+      "sellingPrice": 8950,
+      "rewardValue": 0,
+      "isGift": false,
+      "preSaleDate": null,
+      "productCategoryIds": "/1/105/10501/",
+      "productCategories": {
+        "1": "Supermercado",
+        "105": "Lacteos y huevo",
+        "10501": "Leche"
+      },
+      "quantity": 1,
+      "seller": "chedrauimx0098",
+      "sellerChain": ["chedrauimx0098"],
+      "imageUrl": "http://chedrauimx.vteximg.com.br/arquivos/ids/19555759-132-132/7501020500080_00.jpg?v=638312688365100000",
+      "detailUrl": "/leche-fresca-lala-entera-378-l-3012017/p",
+      "components": [],
+      "bundleItems": [],
+      "attachments": [],
+      "attachmentOfferings": [],
+      "offerings": [],
+      "priceTags": [],
+      "availability": "available",
+      "measurementUnit": "un",
+      "unitMultiplier": 1,
+      "manufacturerCode": "750102050008",
+      "priceDefinition": {
+        "calculatedSellingPrice": 8950,
+        "total": 8950,
+        "sellingPrices": [
+          {
+            "value": 8950,
+            "quantity": 1
+          }
+        ]
+      }
+    },
+    {
+      "additionalInfo": {
+        "categoriesIds": "/1/107/10711/",
+        "productClusterId": "",
+        "commercialConditionId": "1",
+        "dimension": {
+          "cubicweight": 0,
+          "height": 2,
+          "length": 2,
+          "weight": 0.1,
+          "width": 2
+        },
+        "brandName": "C*******",
+        "brandId": "1296",
+        "offeringInfo": null,
+        "offeringType": null,
+        "offeringTypeId": null
+      },
+      "sellerSku": "3796932",
+      "priceTable": null,
+      "priceValidUntil": "2024-10-06T19:26:35Z",
+      "callCenterOperator": null,
+      "commission": 0,
+      "freightCommission": 0,
+      "taxCode": null,
+      "catalogProvider": "vrn:vtex.catalog-api-proxy:-:chedrauimx:master:/proxy/authenticated/catalog/pvt/sku/stockkeepingunitbyid/3796932",
+      "uniqueId": "C3EC5B17FF8B4DA888C80BFAC5CC618A",
+      "id": "3796932",
+      "productId": "3796932",
+      "productRefId": "3796932",
+      "refId": "3796932",
+      "ean": "17501253681492",
+      "name": "C*********************************",
+      "skuName": "C*********************************",
+      "modalType": "ELECTRONICS",
+      "parentItemIndex": null,
+      "parentAssemblyBinding": null,
+      "assemblies": [],
+      "tax": 0,
+      "price": 4990,
+      "listPrice": 5000,
+      "manualPrice": null,
+      "manualPriceAppliedBy": null,
+      "sellingPrice": 4990,
+      "rewardValue": 0,
+      "isGift": false,
+      "preSaleDate": null,
+      "productCategoryIds": "/1/107/10711/",
+      "productCategories": {
+        "1": "Supermercado",
+        "107": "Despensa",
+        "10711": "Cafe y te"
+      },
+      "quantity": 1,
+      "seller": "chedrauimx0098",
+      "sellerChain": ["chedrauimx0098"],
+      "imageUrl": "http://chedrauimx.vteximg.com.br/arquivos/ids/19905154-132-132/7501253681495_00.jpg?v=638319164502200000",
+      "detailUrl": "/cafe-soluble-chedraui-regular-180g-3796932/p",
+      "components": [],
+      "bundleItems": [],
+      "attachments": [],
+      "attachmentOfferings": [],
+      "offerings": [],
+      "priceTags": [],
+      "availability": "available",
+      "measurementUnit": "un",
+      "unitMultiplier": 1,
+      "manufacturerCode": "750125368149",
+      "priceDefinition": {
+        "calculatedSellingPrice": 4990,
+        "total": 4990,
+        "sellingPrices": [
+          {
+            "value": 4990,
+            "quantity": 1
+          }
+        ]
+      }
+    },
+    {
+      "additionalInfo": {
+        "categoriesIds": "/1/105/10518/",
+        "productClusterId": "",
+        "commercialConditionId": "1",
+        "dimension": {
+          "cubicweight": 0,
+          "height": 2,
+          "length": 2,
+          "weight": 0.1,
+          "width": 2
+        },
+        "brandName": "B******",
+        "brandId": "504",
+        "offeringInfo": null,
+        "offeringType": null,
+        "offeringTypeId": null
+      },
+      "sellerSku": "3101196",
+      "priceTable": null,
+      "priceValidUntil": "2024-10-06T19:26:42Z",
+      "callCenterOperator": null,
+      "commission": 0,
+      "freightCommission": 0,
+      "taxCode": null,
+      "catalogProvider": "vrn:vtex.catalog-api-proxy:-:chedrauimx:master:/proxy/authenticated/catalog/pvt/sku/stockkeepingunitbyid/3101196",
+      "uniqueId": "B0A6012780C445D6B5761A28AEBDE451",
+      "id": "3101196",
+      "productId": "3101196",
+      "productRefId": "3101196",
+      "refId": "3101196",
+      "ean": "17501101525510",
+      "name": "H******************************",
+      "skuName": "H******************************",
+      "modalType": "ELECTRONICS",
+      "parentItemIndex": null,
+      "parentAssemblyBinding": null,
+      "assemblies": [],
+      "tax": 0,
+      "price": 7400,
+      "listPrice": 7400,
+      "manualPrice": null,
+      "manualPriceAppliedBy": null,
+      "sellingPrice": 7400,
+      "rewardValue": 0,
+      "isGift": false,
+      "preSaleDate": null,
+      "productCategoryIds": "/1/105/10518/",
+      "productCategories": {
+        "1": "Supermercado",
+        "105": "Lacteos y huevo",
+        "10518": "Huevos"
+      },
+      "quantity": 1,
+      "seller": "chedrauimx0098",
+      "sellerChain": ["chedrauimx0098"],
+      "imageUrl": "http://chedrauimx.vteximg.com.br/arquivos/ids/19159282-132-132/7501101525513_00.jpg?v=638303982510470000",
+      "detailUrl": "/huevo-blanco-bachoco-30-piezas-3101196/p",
+      "components": [],
+      "bundleItems": [],
+      "attachments": [],
+      "attachmentOfferings": [],
+      "offerings": [],
+      "priceTags": [],
+      "availability": "available",
+      "measurementUnit": "un",
+      "unitMultiplier": 1,
+      "manufacturerCode": "750110152551",
+      "priceDefinition": {
+        "calculatedSellingPrice": 7400,
+        "total": 7400,
+        "sellingPrices": [
+          {
+            "value": 7400,
+            "quantity": 1
+          }
+        ]
+      }
+    },
+    {
+      "additionalInfo": {
+        "categoriesIds": "/1/107/10736/",
+        "productClusterId": "2359",
+        "commercialConditionId": "1",
+        "dimension": {
+          "cubicweight": 0,
+          "height": 14.7,
+          "length": 4.5,
+          "weight": 0.9,
+          "width": 20
+        },
+        "brandName": "C*******",
+        "brandId": "1296",
+        "offeringInfo": null,
+        "offeringType": null,
+        "offeringTypeId": null
+      },
+      "sellerSku": "3250655",
+      "priceTable": null,
+      "priceValidUntil": "2024-10-06T19:26:35Z",
+      "callCenterOperator": null,
+      "commission": 0,
+      "freightCommission": 0,
+      "taxCode": null,
+      "catalogProvider": "vrn:vtex.catalog-api-proxy:-:chedrauimx:master:/proxy/authenticated/catalog/pvt/sku/stockkeepingunitbyid/3250655",
+      "uniqueId": "5B5405C7F0F74F3793444EE77391A3C8",
+      "id": "3250655",
+      "productId": "3250655",
+      "productRefId": "3250655",
+      "refId": "3250655",
+      "ean": "17501253655172",
+      "name": "A******************************",
+      "skuName": "A******************************",
+      "modalType": "ELECTRONICS",
+      "parentItemIndex": null,
+      "parentAssemblyBinding": null,
+      "assemblies": [],
+      "tax": 0,
+      "price": 1850,
+      "listPrice": 1850,
+      "manualPrice": null,
+      "manualPriceAppliedBy": null,
+      "sellingPrice": 1850,
+      "rewardValue": 0,
+      "isGift": false,
+      "preSaleDate": null,
+      "productCategoryIds": "/1/107/10736/",
+      "productCategories": {
+        "1": "Supermercado",
+        "107": "Despensa",
+        "10736": "Granos y semillas"
+      },
+      "quantity": 2,
+      "seller": "chedrauimx0098",
+      "sellerChain": ["chedrauimx0098"],
+      "imageUrl": "http://chedrauimx.vteximg.com.br/arquivos/ids/19574508-132-132/7501253655175_00.jpg?v=638312875429170000",
+      "detailUrl": "/arroz-super-extra-chedraui-900g-3250655/p",
+      "components": [],
+      "bundleItems": [],
+      "attachments": [],
+      "attachmentOfferings": [],
+      "offerings": [],
+      "priceTags": [],
+      "availability": "available",
+      "measurementUnit": "un",
+      "unitMultiplier": 1,
+      "manufacturerCode": "750125365517",
+      "priceDefinition": {
+        "calculatedSellingPrice": 1850,
+        "total": 3700,
+        "sellingPrices": [
+          {
+            "value": 1850,
+            "quantity": 2
+          }
+        ]
+      }
+    },
+    {
+      "additionalInfo": {
+        "categoriesIds": "/1/107/10736/",
+        "productClusterId": "2465",
+        "commercialConditionId": "1",
+        "dimension": {
+          "cubicweight": 0,
+          "height": 2,
+          "length": 2,
+          "weight": 0.1,
+          "width": 2
+        },
+        "brandName": "C*******",
+        "brandId": "1296",
+        "offeringInfo": null,
+        "offeringType": null,
+        "offeringTypeId": null
+      },
+      "sellerSku": "3250691",
+      "priceTable": null,
+      "priceValidUntil": "2024-10-06T19:26:35Z",
+      "callCenterOperator": null,
+      "commission": 0,
+      "freightCommission": 0,
+      "taxCode": null,
+      "catalogProvider": "vrn:vtex.catalog-api-proxy:-:chedrauimx:master:/proxy/authenticated/catalog/pvt/sku/stockkeepingunitbyid/3250691",
+      "uniqueId": "8FF0E7A2D85F430A80AE5DB6BADE655E",
+      "id": "3250691",
+      "productId": "3250691",
+      "productRefId": "3250691",
+      "refId": "3250691",
+      "ean": "17501253655189",
+      "name": "F*************************",
+      "skuName": "F*************************",
+      "modalType": "ELECTRONICS",
+      "parentItemIndex": null,
+      "parentAssemblyBinding": null,
+      "assemblies": [],
+      "tax": 0,
+      "price": 2500,
+      "listPrice": 2500,
+      "manualPrice": null,
+      "manualPriceAppliedBy": null,
+      "sellingPrice": 2500,
+      "rewardValue": 0,
+      "isGift": false,
+      "preSaleDate": null,
+      "productCategoryIds": "/1/107/10736/",
+      "productCategories": {
+        "1": "Supermercado",
+        "107": "Despensa",
+        "10736": "Granos y semillas"
+      },
+      "quantity": 3,
+      "seller": "chedrauimx0098",
+      "sellerChain": ["chedrauimx0098"],
+      "imageUrl": "http://chedrauimx.vteximg.com.br/arquivos/ids/19650948-132-132/7501253655182_00.jpg?v=638314332183900000",
+      "detailUrl": "/frijol-negro-chedraui-900g-3250691/p",
+      "components": [],
+      "bundleItems": [],
+      "attachments": [],
+      "attachmentOfferings": [],
+      "offerings": [],
+      "priceTags": [],
+      "availability": "available",
+      "measurementUnit": "un",
+      "unitMultiplier": 1,
+      "manufacturerCode": "750125365518",
+      "priceDefinition": {
+        "calculatedSellingPrice": 2500,
+        "total": 7500,
+        "sellingPrices": [
+          {
+            "value": 2500,
+            "quantity": 3
+          }
+        ]
+      }
+    },
+    {
+      "additionalInfo": {
+        "categoriesIds": "/1/107/10717/",
+        "productClusterId": "2282,2409,2555",
+        "commercialConditionId": "1",
+        "dimension": {
+          "cubicweight": 0,
+          "height": 1,
+          "length": 1,
+          "weight": 1,
+          "width": 1
+        },
+        "brandName": "C*******",
+        "brandId": "1296",
+        "offeringInfo": null,
+        "offeringType": null,
+        "offeringTypeId": null
+      },
+      "sellerSku": "3109895",
+      "priceTable": null,
+      "priceValidUntil": "2024-10-06T19:24:41Z",
+      "callCenterOperator": null,
+      "commission": 0,
+      "freightCommission": 0,
+      "taxCode": null,
+      "catalogProvider": "vrn:vtex.catalog-api-proxy:-:chedrauimx:master:/proxy/authenticated/catalog/pvt/sku/stockkeepingunitbyid/3109895",
+      "uniqueId": "CB9C29D583034AFEB6A213D3323701AA",
+      "id": "3109895",
+      "productId": "3109895",
+      "productRefId": "3109895",
+      "refId": "3109895",
+      "ean": "750125362436",
+      "name": "S*******************************",
+      "skuName": "S*******************************",
+      "modalType": "ELECTRONICS",
+      "parentItemIndex": null,
+      "parentAssemblyBinding": null,
+      "assemblies": [],
+      "tax": 0,
+      "price": 1400,
+      "listPrice": 1400,
+      "manualPrice": null,
+      "manualPriceAppliedBy": null,
+      "sellingPrice": 1400,
+      "rewardValue": 0,
+      "isGift": false,
+      "preSaleDate": null,
+      "productCategoryIds": "/1/107/10717/",
+      "productCategories": {
+        "1": "Supermercado",
+        "107": "Despensa",
+        "10717": "Especias y condimentos"
+      },
+      "quantity": 1,
+      "seller": "chedrauimx0098",
+      "sellerChain": ["chedrauimx0098"],
+      "imageUrl": "http://chedrauimx.vteximg.com.br/arquivos/ids/19956815-132-132/7501253624362_00.jpg?v=638319861131930000",
+      "detailUrl": "/sal-chedraui-fluorurada-bolsa1kg-3109895/p",
+      "components": [],
+      "bundleItems": [],
+      "attachments": [],
+      "attachmentOfferings": [],
+      "offerings": [],
+      "priceTags": [],
+      "availability": "available",
+      "measurementUnit": "un",
+      "unitMultiplier": 1,
+      "manufacturerCode": "750125362436",
+      "priceDefinition": {
+        "calculatedSellingPrice": 1400,
+        "total": 1400,
+        "sellingPrices": [
+          {
+            "value": 1400,
+            "quantity": 1
+          }
+        ]
+      }
+    },
+    {
+      "additionalInfo": {
+        "categoriesIds": "/1/107/10717/",
+        "productClusterId": "",
+        "commercialConditionId": "1",
+        "dimension": {
+          "cubicweight": 0,
+          "height": 1,
+          "length": 1,
+          "weight": 1,
+          "width": 1
+        },
+        "brandName": "S******",
+        "brandId": "5563",
+        "offeringInfo": null,
+        "offeringType": null,
+        "offeringTypeId": null
+      },
+      "sellerSku": "3090671",
+      "priceTable": null,
+      "priceValidUntil": "2024-10-06T19:23:08Z",
+      "callCenterOperator": null,
+      "commission": 0,
+      "freightCommission": 0,
+      "taxCode": null,
+      "catalogProvider": "vrn:vtex.catalog-api-proxy:-:chedrauimx:master:/proxy/authenticated/catalog/pvt/sku/stockkeepingunitbyid/3090671",
+      "uniqueId": "597E5DB807BF4B7A862B49DBFEB3B3A0",
+      "id": "3090671",
+      "productId": "3090671",
+      "productRefId": "3090671",
+      "refId": "3090671",
+      "ean": "7501118392108",
+      "name": "S***********************************************",
+      "skuName": "S***********************************************",
+      "modalType": "ELECTRONICS",
+      "parentItemIndex": null,
+      "parentAssemblyBinding": null,
+      "assemblies": [],
+      "tax": 0,
+      "price": 900,
+      "listPrice": 900,
+      "manualPrice": null,
+      "manualPriceAppliedBy": null,
+      "sellingPrice": 900,
+      "rewardValue": 0,
+      "isGift": false,
+      "preSaleDate": null,
+      "productCategoryIds": "/1/107/10717/",
+      "productCategories": {
+        "1": "Supermercado",
+        "107": "Despensa",
+        "10717": "Especias y condimentos"
+      },
+      "quantity": 1,
+      "seller": "chedrauimx0098",
+      "sellerChain": ["chedrauimx0098"],
+      "imageUrl": "http://chedrauimx.vteximg.com.br/arquivos/ids/19616974-132-132/7501118392108_00.jpg?v=638313664112430000",
+      "detailUrl": "/sal-sol-bolsa-grano-grueso-yodada-fluorurada-1kg-3090671/p",
+      "components": [],
+      "bundleItems": [],
+      "attachments": [],
+      "attachmentOfferings": [],
+      "offerings": [],
+      "priceTags": [],
+      "availability": "available",
+      "measurementUnit": "un",
+      "unitMultiplier": 1,
+      "manufacturerCode": "750111839210",
+      "priceDefinition": {
+        "calculatedSellingPrice": 900,
+        "total": 900,
+        "sellingPrices": [
+          {
+            "value": 900,
+            "quantity": 1
+          }
+        ]
+      }
+    },
+    {
+      "additionalInfo": {
+        "categoriesIds": "/1/112/11203/",
+        "productClusterId": "11010",
+        "commercialConditionId": "1",
+        "dimension": {
+          "cubicweight": 0,
+          "height": 2,
+          "length": 2,
+          "weight": 0.1,
+          "width": 2
+        },
+        "brandName": "P*****",
+        "brandId": "4976",
+        "offeringInfo": null,
+        "offeringType": null,
+        "offeringTypeId": null
+      },
+      "sellerSku": "3759320",
+      "priceTable": null,
+      "priceValidUntil": "2024-10-06T19:24:41Z",
+      "callCenterOperator": null,
+      "commission": 0,
+      "freightCommission": 0,
+      "taxCode": null,
+      "catalogProvider": "vrn:vtex.catalog-api-proxy:-:chedrauimx:master:/proxy/authenticated/catalog/pvt/sku/stockkeepingunitbyid/3759320",
+      "uniqueId": "6F2BCFA87B2E4CB78085BD03A5D70BB9",
+      "id": "3759320",
+      "productId": "3759320",
+      "productRefId": "3759320",
+      "refId": "3759320",
+      "ean": "750642564949",
+      "name": "S*******************************",
+      "skuName": "S*******************************",
+      "modalType": "ELECTRONICS",
+      "parentItemIndex": null,
+      "parentAssemblyBinding": null,
+      "assemblies": [],
+      "tax": 0,
+      "price": 2100,
+      "listPrice": 2100,
+      "manualPrice": null,
+      "manualPriceAppliedBy": null,
+      "sellingPrice": 2100,
+      "rewardValue": 0,
+      "isGift": false,
+      "preSaleDate": null,
+      "productCategoryIds": "/1/112/11203/",
+      "productCategories": {
+        "1": "Supermercado",
+        "112": "Desechables",
+        "11203": "Servilletas y servitoallas"
+      },
+      "quantity": 1,
+      "seller": "chedrauimx0098",
+      "sellerChain": ["chedrauimx0098"],
+      "imageUrl": "http://chedrauimx.vteximg.com.br/arquivos/ids/19942522-132-132/7506425649495_00.jpg?v=638319646259400000",
+      "detailUrl": "/servitoalla-petalo-jumbo-1-rollo-3759320/p",
+      "components": [],
+      "bundleItems": [],
+      "attachments": [],
+      "attachmentOfferings": [],
+      "offerings": [],
+      "priceTags": [],
+      "availability": "available",
+      "measurementUnit": "un",
+      "unitMultiplier": 1,
+      "manufacturerCode": "750642564949",
+      "priceDefinition": {
+        "calculatedSellingPrice": 2100,
+        "total": 2100,
+        "sellingPrices": [
+          {
+            "value": 2100,
+            "quantity": 1
+          }
+        ]
+      }
+    },
+    {
+      "additionalInfo": {
+        "categoriesIds": "/1/113/11305/",
+        "productClusterId": "",
+        "commercialConditionId": "1",
+        "dimension": {
+          "cubicweight": 0,
+          "height": 2,
+          "length": 2,
+          "weight": 0.1,
+          "width": 2
+        },
+        "brandName": "B************",
+        "brandId": "718",
+        "offeringInfo": null,
+        "offeringType": null,
+        "offeringTypeId": null
+      },
+      "sellerSku": "3141017",
+      "priceTable": null,
+      "priceValidUntil": "2024-10-06T19:26:35Z",
+      "callCenterOperator": null,
+      "commission": 0,
+      "freightCommission": 0,
+      "taxCode": null,
+      "catalogProvider": "vrn:vtex.catalog-api-proxy:-:chedrauimx:master:/proxy/authenticated/catalog/pvt/sku/stockkeepingunitbyid/3141017",
+      "uniqueId": "E19616EE4BC34C99BCED5663B817FF83",
+      "id": "3141017",
+      "productId": "3141017",
+      "productRefId": "3141017",
+      "refId": "3141017",
+      "ean": "750102602804",
+      "name": "D*****************************************************",
+      "skuName": "D*****************************************************",
+      "modalType": "ELECTRONICS",
+      "parentItemIndex": null,
+      "parentAssemblyBinding": null,
+      "assemblies": [],
+      "tax": 0,
+      "price": 3890,
+      "listPrice": 3890,
+      "manualPrice": null,
+      "manualPriceAppliedBy": null,
+      "sellingPrice": 3890,
+      "rewardValue": 0,
+      "isGift": false,
+      "preSaleDate": null,
+      "productCategoryIds": "/1/113/11305/",
+      "productCategories": {
+        "1": "Supermercado",
+        "113": "Limpieza del hogar",
+        "11305": "Lavandería"
+      },
+      "quantity": 1,
+      "seller": "chedrauimx0098",
+      "sellerChain": ["chedrauimx0098"],
+      "imageUrl": "http://chedrauimx.vteximg.com.br/arquivos/ids/18846448-132-132/7501026028045_00.jpg?v=638301476949070000",
+      "detailUrl": "/detergente-liquido-blanca-nieves-para-ropa-delicada-1l-3141017/p",
+      "components": [],
+      "bundleItems": [],
+      "attachments": [],
+      "attachmentOfferings": [],
+      "offerings": [],
+      "priceTags": [],
+      "availability": "available",
+      "measurementUnit": "un",
+      "unitMultiplier": 1,
+      "manufacturerCode": "750102602804",
+      "priceDefinition": {
+        "calculatedSellingPrice": 3890,
+        "total": 3890,
+        "sellingPrices": [
+          {
+            "value": 3890,
+            "quantity": 1
+          }
+        ]
+      }
+    },
+    {
+      "additionalInfo": {
+        "categoriesIds": "/11/1102/110202/",
+        "productClusterId": "",
+        "commercialConditionId": "1",
+        "dimension": {
+          "cubicweight": 0,
+          "height": 2,
+          "length": 2,
+          "weight": 0.1,
+          "width": 2
+        },
+        "brandName": "P**",
+        "brandId": "5192",
+        "offeringInfo": null,
+        "offeringType": null,
+        "offeringTypeId": null
+      },
+      "sellerSku": "3238369",
+      "priceTable": null,
+      "priceValidUntil": "2024-10-06T19:23:48Z",
+      "callCenterOperator": null,
+      "commission": 0,
+      "freightCommission": 0,
+      "taxCode": null,
+      "catalogProvider": "vrn:vtex.catalog-api-proxy:-:chedrauimx:master:/proxy/authenticated/catalog/pvt/sku/stockkeepingunitbyid/3238369",
+      "uniqueId": "C85604310A9E4BF690B694186739205F",
+      "id": "3238369",
+      "productId": "3238369",
+      "productRefId": "3238369",
+      "refId": "3238369",
+      "ean": "17506295356773",
+      "name": "C********************************************",
+      "skuName": "C********************************************",
+      "modalType": "ELECTRONICS",
+      "parentItemIndex": null,
+      "parentAssemblyBinding": null,
+      "assemblies": [],
+      "tax": 0,
+      "price": 5000,
+      "listPrice": 5900,
+      "manualPrice": null,
+      "manualPriceAppliedBy": null,
+      "sellingPrice": 5000,
+      "rewardValue": 0,
+      "isGift": false,
+      "preSaleDate": null,
+      "productCategoryIds": "/11/1102/110202/",
+      "productCategories": {
+        "11": "Cuidado e higiene personal",
+        "1102": "Higiene bucal",
+        "110202": "Cepillos dentales"
+      },
+      "quantity": 1,
+      "seller": "chedrauimx0098",
+      "sellerChain": ["chedrauimx0098"],
+      "imageUrl": "http://chedrauimx.vteximg.com.br/arquivos/ids/19616621-132-132/7506295356776_00.jpg?v=638313662145900000",
+      "detailUrl": "/cepillo-de-dientes-pro-double-duty-3-cepillos-3238369/p",
+      "components": [],
+      "bundleItems": [],
+      "attachments": [],
+      "attachmentOfferings": [],
+      "offerings": [],
+      "priceTags": [],
+      "availability": "available",
+      "measurementUnit": "un",
+      "unitMultiplier": 1,
+      "manufacturerCode": "750629535677",
+      "priceDefinition": {
+        "calculatedSellingPrice": 5000,
+        "total": 5000,
+        "sellingPrices": [
+          {
+            "value": 5000,
+            "quantity": 1
+          }
+        ]
+      }
+    }
+  ],
+  "sellers": [
+    {
+      "subSellerId": "1",
+      "fulfillmentEndpoint": "http://fulfillment.vtexcommerce.com.br/api/fulfillment?an=chedrauimx0098&affiliateId=SLR&sc=1",
+      "id": "chedrauimx0098",
+      "name": "C*******************************",
+      "logo": ""
+    }
+  ],
+  "giftRegistryData": null,
+  "receiptData": null,
+  "contextData": null,
+  "marketPlaceOrderId": "",
+  "marketPlaceOrderGroup": null,
+  "marketplaceServicesEndpoint": null,
+  "orderFormId": "20cc0ee0689b4d4684466f180cbc2122",
+  "sequence": "3049449",
+  "affiliateId": "",
+  "status": "",
+  "callCenterOperator": "",
+  "userProfileId": "cfd25df3-3096-4b1a-99dc-31852f287f1d",
+  "hostName": "c*********",
+  "creationVersion": null,
+  "creationEnvironment": null,
+  "lastChangeVersion": null,
+  "workflowInstanceId": null,
+  "marketplacePaymentValue": null,
+  "orderId": "1366913049449-01",
+  "orderGroup": "1366913049449",
+  "state": "invoiced",
+  "isCheckedIn": false,
+  "sellerOrderId": "SLR-1366913049449-01",
+  "storeId": null,
+  "checkedInPickupPointId": null,
+  "value": 67430,
+  "totals": [
+    {
+      "id": "Items",
+      "name": "T*****************",
+      "value": 68130
+    },
+    {
+      "id": "Discounts",
+      "name": "T******************",
+      "value": -5300
+    },
+    {
+      "id": "Shipping",
+      "name": "C********************",
+      "value": 3800
+    },
+    {
+      "id": "Tax",
+      "name": "C*********************",
+      "value": 0
+    },
+    {
+      "id": "Change",
+      "name": "T*************************",
+      "value": 800
+    }
+  ],
+  "clientProfileData": {
+    "email": "r****.r*****@g****.c****************.c*.v***.c**.b*",
+    "firstName": "r****",
+    "lastName": "r*****",
+    "document": null,
+    "documentType": null,
+    "phone": "+5***********",
+    "corporateName": null,
+    "tradeName": null,
+    "corporateDocument": null,
+    "stateInscription": null,
+    "corporatePhone": null,
+    "isCorporate": false,
+    "profileCompleteOnLoading": true,
+    "profileErrorOnLoading": false,
+    "customerClass": null
+  },
+  "ratesAndBenefitsData": {
+    "rateAndBenefitsIdentifiers": [
+      {
+        "id": "29bdd1b2-466a-4724-b83a-f14aec9482fa",
+        "name": "C**************************************************",
+        "featured": true,
+        "description": "{\"id\":5100193332,\"tipo\":\"P008\",\"tipo_b\":\"MxN\",\"desc\":\"2x$119 en papel higienico Premier 12 rollos\",\"integration\":false}",
+        "matchedParameters": {
+          "forThePriceOf@Marketing": "3735509",
+          "forThePriceOfMatchedItemsWithQuantity@Marketing": "3735509-0-2",
+          "usedItemsInPromotion@Marketing": "3735509"
+        },
+        "additionalInfo": null
+      }
+    ],
+    "teaser": []
+  },
+  "shippingData": {
+    "address": {
+      "addressType": "residential",
+      "receiverName": "r**** r*****",
+      "addressId": "9TFqgVrZ8C",
+      "isDisposable": false,
+      "postalCode": "0****",
+      "city": "á***** O******",
+      "state": "Distrito Federal",
+      "country": "MEX",
+      "street": "P***** d* I****",
+      "number": "3*",
+      "neighborhood": "p***** c******* ",
+      "complement": "",
+      "reference": "r**** n****** p**** c***",
+      "geoCoordinates": [-51.4779552, -0.0039779]
+    },
+    "logisticsInfo": [
+      {
+        "itemIndex": 0,
+        "selectedSla": "ENTREGA DOMICILIO - CHEDRAUI SELECTO  SANTA FE",
+        "selectedDeliveryChannel": "delivery",
+        "addressId": "9TFqgVrZ8C",
+        "slas": [
+          {
+            "id": "ENTREGA DOMICILIO - CHEDRAUI SELECTO  SANTA FE",
+            "deliveryChannel": "delivery",
+            "name": "E*********************************************",
+            "deliveryIds": [
+              {
+                "courierId": "HD0098R",
+                "warehouseId": "WH0098",
+                "dockId": "DK0098",
+                "courierName": "D***************************************",
+                "quantity": 2,
+                "kitItemDetails": []
+              }
+            ],
+            "shippingEstimate": "0d",
+            "shippingEstimateDate": "2023-10-06T16:00:00",
+            "lockTTL": "12d",
+            "availableDeliveryWindows": [],
+            "deliveryWindow": {
+              "startDateUtc": "2023-10-06T16:00:00+00:00",
+              "endDateUtc": "2023-10-06T17:59:59+00:00",
+              "price": 0,
+              "lisPrice": 0,
+              "tax": 0
+            },
+            "price": 145,
+            "listPrice": 145,
+            "tax": 0,
+            "pickupStoreInfo": {
+              "isPickupStore": false,
+              "friendlyName": null,
+              "address": null,
+              "additionalInfo": null,
+              "dockId": null
+            },
+            "pickupPointId": null,
+            "pickupDistance": null,
+            "polygonName": "C***************************",
+            "transitTime": "0d"
+          }
+        ],
+        "shipsTo": ["MEX"],
+        "itemId": "3735509",
+        "deliveryChannels": [
+          {
+            "id": "delivery"
+          },
+          {
+            "id": "pickup-in-point"
+          }
+        ]
+      },
+      {
+        "itemIndex": 1,
+        "selectedSla": "ENTREGA DOMICILIO - CHEDRAUI SELECTO  SANTA FE",
+        "selectedDeliveryChannel": "delivery",
+        "addressId": "9TFqgVrZ8C",
+        "slas": [
+          {
+            "id": "ENTREGA DOMICILIO - CHEDRAUI SELECTO  SANTA FE",
+            "deliveryChannel": "delivery",
+            "name": "E*********************************************",
+            "deliveryIds": [
+              {
+                "courierId": "HD0098R",
+                "warehouseId": "WH0098",
+                "dockId": "DK0098",
+                "courierName": "D***************************************",
+                "quantity": 1,
+                "kitItemDetails": []
+              }
+            ],
+            "shippingEstimate": "0d",
+            "shippingEstimateDate": "2023-10-06T16:00:00",
+            "lockTTL": "12d",
+            "availableDeliveryWindows": [],
+            "deliveryWindow": {
+              "startDateUtc": "2023-10-06T16:00:00+00:00",
+              "endDateUtc": "2023-10-06T17:59:59+00:00",
+              "price": 0,
+              "lisPrice": 0,
+              "tax": 0
+            },
+            "price": 74,
+            "listPrice": 74,
+            "tax": 0,
+            "pickupStoreInfo": {
+              "isPickupStore": false,
+              "friendlyName": null,
+              "address": null,
+              "additionalInfo": null,
+              "dockId": null
+            },
+            "pickupPointId": null,
+            "pickupDistance": null,
+            "polygonName": "C***************************",
+            "transitTime": "0d"
+          }
+        ],
+        "shipsTo": ["MEX"],
+        "itemId": "3012017",
+        "deliveryChannels": [
+          {
+            "id": "delivery"
+          },
+          {
+            "id": "pickup-in-point"
+          }
+        ]
+      },
+      {
+        "itemIndex": 2,
+        "selectedSla": "ENTREGA DOMICILIO - CHEDRAUI SELECTO  SANTA FE",
+        "selectedDeliveryChannel": "delivery",
+        "addressId": "9TFqgVrZ8C",
+        "slas": [
+          {
+            "id": "ENTREGA DOMICILIO - CHEDRAUI SELECTO  SANTA FE",
+            "deliveryChannel": "delivery",
+            "name": "E*********************************************",
+            "deliveryIds": [
+              {
+                "courierId": "HD0098R",
+                "warehouseId": "WH0098",
+                "dockId": "DK0098",
+                "courierName": "D***************************************",
+                "quantity": 1,
+                "kitItemDetails": []
+              }
+            ],
+            "shippingEstimate": "0d",
+            "shippingEstimateDate": "2023-10-06T16:00:00",
+            "lockTTL": "12d",
+            "availableDeliveryWindows": [],
+            "deliveryWindow": {
+              "startDateUtc": "2023-10-06T16:00:00+00:00",
+              "endDateUtc": "2023-10-06T17:59:59+00:00",
+              "price": 0,
+              "lisPrice": 0,
+              "tax": 0
+            },
+            "price": 72,
+            "listPrice": 72,
+            "tax": 0,
+            "pickupStoreInfo": {
+              "isPickupStore": false,
+              "friendlyName": null,
+              "address": null,
+              "additionalInfo": null,
+              "dockId": null
+            },
+            "pickupPointId": null,
+            "pickupDistance": null,
+            "polygonName": "C***************************",
+            "transitTime": "0d"
+          }
+        ],
+        "shipsTo": ["MEX"],
+        "itemId": "3796932",
+        "deliveryChannels": [
+          {
+            "id": "delivery"
+          },
+          {
+            "id": "pickup-in-point"
+          }
+        ]
+      },
+      {
+        "itemIndex": 3,
+        "selectedSla": "ENTREGA DOMICILIO - CHEDRAUI SELECTO  SANTA FE",
+        "selectedDeliveryChannel": "delivery",
+        "addressId": "9TFqgVrZ8C",
+        "slas": [
+          {
+            "id": "ENTREGA DOMICILIO - CHEDRAUI SELECTO  SANTA FE",
+            "deliveryChannel": "delivery",
+            "name": "E*********************************************",
+            "deliveryIds": [
+              {
+                "courierId": "HD0098R",
+                "warehouseId": "WH0098",
+                "dockId": "DK0098",
+                "courierName": "D***************************************",
+                "quantity": 1,
+                "kitItemDetails": []
+              }
+            ],
+            "shippingEstimate": "0d",
+            "shippingEstimateDate": "2023-10-06T16:00:00",
+            "lockTTL": "12d",
+            "availableDeliveryWindows": [],
+            "deliveryWindow": {
+              "startDateUtc": "2023-10-06T16:00:00+00:00",
+              "endDateUtc": "2023-10-06T17:59:59+00:00",
+              "price": 0,
+              "lisPrice": 0,
+              "tax": 0
+            },
+            "price": 72,
+            "listPrice": 72,
+            "tax": 0,
+            "pickupStoreInfo": {
+              "isPickupStore": false,
+              "friendlyName": null,
+              "address": null,
+              "additionalInfo": null,
+              "dockId": null
+            },
+            "pickupPointId": null,
+            "pickupDistance": null,
+            "polygonName": "C***************************",
+            "transitTime": "0d"
+          }
+        ],
+        "shipsTo": ["MEX"],
+        "itemId": "3101196",
+        "deliveryChannels": [
+          {
+            "id": "delivery"
+          },
+          {
+            "id": "pickup-in-point"
+          }
+        ]
+      },
+      {
+        "itemIndex": 4,
+        "selectedSla": "ENTREGA DOMICILIO - CHEDRAUI SELECTO  SANTA FE",
+        "selectedDeliveryChannel": "delivery",
+        "addressId": "9TFqgVrZ8C",
+        "slas": [
+          {
+            "id": "ENTREGA DOMICILIO - CHEDRAUI SELECTO  SANTA FE",
+            "deliveryChannel": "delivery",
+            "name": "E*********************************************",
+            "deliveryIds": [
+              {
+                "courierId": "HD0098R",
+                "warehouseId": "WH0098",
+                "dockId": "DK0098",
+                "courierName": "D***************************************",
+                "quantity": 2,
+                "kitItemDetails": []
+              }
+            ],
+            "shippingEstimate": "0d",
+            "shippingEstimateDate": "2023-10-06T16:00:00",
+            "lockTTL": "12d",
+            "availableDeliveryWindows": [],
+            "deliveryWindow": {
+              "startDateUtc": "2023-10-06T16:00:00+00:00",
+              "endDateUtc": "2023-10-06T17:59:59+00:00",
+              "price": 0,
+              "lisPrice": 0,
+              "tax": 0
+            },
+            "price": 1303,
+            "listPrice": 1303,
+            "tax": 0,
+            "pickupStoreInfo": {
+              "isPickupStore": false,
+              "friendlyName": null,
+              "address": null,
+              "additionalInfo": null,
+              "dockId": null
+            },
+            "pickupPointId": null,
+            "pickupDistance": null,
+            "polygonName": "C***************************",
+            "transitTime": "0d"
+          }
+        ],
+        "shipsTo": ["MEX"],
+        "itemId": "3250655",
+        "deliveryChannels": [
+          {
+            "id": "delivery"
+          },
+          {
+            "id": "pickup-in-point"
+          }
+        ]
+      },
+      {
+        "itemIndex": 5,
+        "selectedSla": "ENTREGA DOMICILIO - CHEDRAUI SELECTO  SANTA FE",
+        "selectedDeliveryChannel": "delivery",
+        "addressId": "9TFqgVrZ8C",
+        "slas": [
+          {
+            "id": "ENTREGA DOMICILIO - CHEDRAUI SELECTO  SANTA FE",
+            "deliveryChannel": "delivery",
+            "name": "E*********************************************",
+            "deliveryIds": [
+              {
+                "courierId": "HD0098R",
+                "warehouseId": "WH0098",
+                "dockId": "DK0098",
+                "courierName": "D***************************************",
+                "quantity": 3,
+                "kitItemDetails": []
+              }
+            ],
+            "shippingEstimate": "0d",
+            "shippingEstimateDate": "2023-10-06T16:00:00",
+            "lockTTL": "12d",
+            "availableDeliveryWindows": [],
+            "deliveryWindow": {
+              "startDateUtc": "2023-10-06T16:00:00+00:00",
+              "endDateUtc": "2023-10-06T17:59:59+00:00",
+              "price": 0,
+              "lisPrice": 0,
+              "tax": 0
+            },
+            "price": 217,
+            "listPrice": 217,
+            "tax": 0,
+            "pickupStoreInfo": {
+              "isPickupStore": false,
+              "friendlyName": null,
+              "address": null,
+              "additionalInfo": null,
+              "dockId": null
+            },
+            "pickupPointId": null,
+            "pickupDistance": null,
+            "polygonName": "C***************************",
+            "transitTime": "0d"
+          }
+        ],
+        "shipsTo": ["MEX"],
+        "itemId": "3250691",
+        "deliveryChannels": [
+          {
+            "id": "delivery"
+          },
+          {
+            "id": "pickup-in-point"
+          }
+        ]
+      },
+      {
+        "itemIndex": 6,
+        "selectedSla": "ENTREGA DOMICILIO - CHEDRAUI SELECTO  SANTA FE",
+        "selectedDeliveryChannel": "delivery",
+        "addressId": "9TFqgVrZ8C",
+        "slas": [
+          {
+            "id": "ENTREGA DOMICILIO - CHEDRAUI SELECTO  SANTA FE",
+            "deliveryChannel": "delivery",
+            "name": "E*********************************************",
+            "deliveryIds": [
+              {
+                "courierId": "HD0098R",
+                "warehouseId": "WH0098",
+                "dockId": "DK0098",
+                "courierName": "D***************************************",
+                "quantity": 1,
+                "kitItemDetails": []
+              }
+            ],
+            "shippingEstimate": "0d",
+            "shippingEstimateDate": "2023-10-06T16:00:00",
+            "lockTTL": "12d",
+            "availableDeliveryWindows": [],
+            "deliveryWindow": {
+              "startDateUtc": "2023-10-06T16:00:00+00:00",
+              "endDateUtc": "2023-10-06T17:59:59+00:00",
+              "price": 0,
+              "lisPrice": 0,
+              "tax": 0
+            },
+            "price": 724,
+            "listPrice": 724,
+            "tax": 0,
+            "pickupStoreInfo": {
+              "isPickupStore": false,
+              "friendlyName": null,
+              "address": null,
+              "additionalInfo": null,
+              "dockId": null
+            },
+            "pickupPointId": null,
+            "pickupDistance": null,
+            "polygonName": "C***************************",
+            "transitTime": "0d"
+          }
+        ],
+        "shipsTo": ["MEX"],
+        "itemId": "3109895",
+        "deliveryChannels": [
+          {
+            "id": "delivery"
+          },
+          {
+            "id": "pickup-in-point"
+          }
+        ]
+      },
+      {
+        "itemIndex": 7,
+        "selectedSla": "ENTREGA DOMICILIO - CHEDRAUI SELECTO  SANTA FE",
+        "selectedDeliveryChannel": "delivery",
+        "addressId": "9TFqgVrZ8C",
+        "slas": [
+          {
+            "id": "ENTREGA DOMICILIO - CHEDRAUI SELECTO  SANTA FE",
+            "deliveryChannel": "delivery",
+            "name": "E*********************************************",
+            "deliveryIds": [
+              {
+                "courierId": "HD0098R",
+                "warehouseId": "WH0098",
+                "dockId": "DK0098",
+                "courierName": "D***************************************",
+                "quantity": 1,
+                "kitItemDetails": []
+              }
+            ],
+            "shippingEstimate": "0d",
+            "shippingEstimateDate": "2023-10-06T16:00:00",
+            "lockTTL": "12d",
+            "availableDeliveryWindows": [],
+            "deliveryWindow": {
+              "startDateUtc": "2023-10-06T16:00:00+00:00",
+              "endDateUtc": "2023-10-06T17:59:59+00:00",
+              "price": 0,
+              "lisPrice": 0,
+              "tax": 0
+            },
+            "price": 724,
+            "listPrice": 724,
+            "tax": 0,
+            "pickupStoreInfo": {
+              "isPickupStore": false,
+              "friendlyName": null,
+              "address": null,
+              "additionalInfo": null,
+              "dockId": null
+            },
+            "pickupPointId": null,
+            "pickupDistance": null,
+            "polygonName": "C***************************",
+            "transitTime": "0d"
+          }
+        ],
+        "shipsTo": ["MEX"],
+        "itemId": "3090671",
+        "deliveryChannels": [
+          {
+            "id": "delivery"
+          },
+          {
+            "id": "pickup-in-point"
+          }
+        ]
+      },
+      {
+        "itemIndex": 8,
+        "selectedSla": "ENTREGA DOMICILIO - CHEDRAUI SELECTO  SANTA FE",
+        "selectedDeliveryChannel": "delivery",
+        "addressId": "9TFqgVrZ8C",
+        "slas": [
+          {
+            "id": "ENTREGA DOMICILIO - CHEDRAUI SELECTO  SANTA FE",
+            "deliveryChannel": "delivery",
+            "name": "E*********************************************",
+            "deliveryIds": [
+              {
+                "courierId": "HD0098R",
+                "warehouseId": "WH0098",
+                "dockId": "DK0098",
+                "courierName": "D***************************************",
+                "quantity": 1,
+                "kitItemDetails": []
+              }
+            ],
+            "shippingEstimate": "0d",
+            "shippingEstimateDate": "2023-10-06T16:00:00",
+            "lockTTL": "12d",
+            "availableDeliveryWindows": [],
+            "deliveryWindow": {
+              "startDateUtc": "2023-10-06T16:00:00+00:00",
+              "endDateUtc": "2023-10-06T17:59:59+00:00",
+              "price": 0,
+              "lisPrice": 0,
+              "tax": 0
+            },
+            "price": 72,
+            "listPrice": 72,
+            "tax": 0,
+            "pickupStoreInfo": {
+              "isPickupStore": false,
+              "friendlyName": null,
+              "address": null,
+              "additionalInfo": null,
+              "dockId": null
+            },
+            "pickupPointId": null,
+            "pickupDistance": null,
+            "polygonName": "C***************************",
+            "transitTime": "0d"
+          }
+        ],
+        "shipsTo": ["MEX"],
+        "itemId": "3759320",
+        "deliveryChannels": [
+          {
+            "id": "delivery"
+          },
+          {
+            "id": "pickup-in-point"
+          }
+        ]
+      },
+      {
+        "itemIndex": 9,
+        "selectedSla": "ENTREGA DOMICILIO - CHEDRAUI SELECTO  SANTA FE",
+        "selectedDeliveryChannel": "delivery",
+        "addressId": "9TFqgVrZ8C",
+        "slas": [
+          {
+            "id": "ENTREGA DOMICILIO - CHEDRAUI SELECTO  SANTA FE",
+            "deliveryChannel": "delivery",
+            "name": "E*********************************************",
+            "deliveryIds": [
+              {
+                "courierId": "HD0098R",
+                "warehouseId": "WH0098",
+                "dockId": "DK0098",
+                "courierName": "D***************************************",
+                "quantity": 1,
+                "kitItemDetails": []
+              }
+            ],
+            "shippingEstimate": "0d",
+            "shippingEstimateDate": "2023-10-06T16:00:00",
+            "lockTTL": "12d",
+            "availableDeliveryWindows": [],
+            "deliveryWindow": {
+              "startDateUtc": "2023-10-06T16:00:00+00:00",
+              "endDateUtc": "2023-10-06T17:59:59+00:00",
+              "price": 0,
+              "lisPrice": 0,
+              "tax": 0
+            },
+            "price": 72,
+            "listPrice": 72,
+            "tax": 0,
+            "pickupStoreInfo": {
+              "isPickupStore": false,
+              "friendlyName": null,
+              "address": null,
+              "additionalInfo": null,
+              "dockId": null
+            },
+            "pickupPointId": null,
+            "pickupDistance": null,
+            "polygonName": "C***************************",
+            "transitTime": "0d"
+          }
+        ],
+        "shipsTo": ["MEX"],
+        "itemId": "3141017",
+        "deliveryChannels": [
+          {
+            "id": "delivery"
+          },
+          {
+            "id": "pickup-in-point"
+          }
+        ]
+      },
+      {
+        "itemIndex": 11,
+        "selectedSla": "ENTREGA DOMICILIO - CHEDRAUI SELECTO  SANTA FE",
+        "selectedDeliveryChannel": "delivery",
+        "addressId": "9TFqgVrZ8C",
+        "slas": [
+          {
+            "id": "ENTREGA DOMICILIO - CHEDRAUI SELECTO  SANTA FE",
+            "deliveryChannel": "delivery",
+            "name": "E*********************************************",
+            "deliveryIds": [
+              {
+                "courierId": "HD0098R",
+                "warehouseId": "WH0098",
+                "dockId": "DK0098",
+                "courierName": "D***************************************",
+                "quantity": 1,
+                "kitItemDetails": []
+              }
+            ],
+            "shippingEstimate": "0d",
+            "shippingEstimateDate": "2023-10-06T16:00:00",
+            "lockTTL": "12d",
+            "availableDeliveryWindows": [],
+            "deliveryWindow": {
+              "startDateUtc": "2023-10-06T16:00:00+00:00",
+              "endDateUtc": "2023-10-06T17:59:59+00:00",
+              "price": 0,
+              "lisPrice": 0,
+              "tax": 0
+            },
+            "price": 72,
+            "listPrice": 72,
+            "tax": 0,
+            "pickupStoreInfo": {
+              "isPickupStore": false,
+              "friendlyName": null,
+              "address": null,
+              "additionalInfo": null,
+              "dockId": null
+            },
+            "pickupPointId": null,
+            "pickupDistance": null,
+            "polygonName": "C***************************",
+            "transitTime": "0d"
+          }
+        ],
+        "shipsTo": ["MEX"],
+        "itemId": "3238369",
+        "deliveryChannels": [
+          {
+            "id": "delivery"
+          },
+          {
+            "id": "pickup-in-point"
+          }
+        ]
+      }
+    ],
+    "selectedAddresses": [
+      {
+        "addressType": "residential",
+        "receiverName": "r**** r*****",
+        "addressId": "9TFqgVrZ8C",
+        "isDisposable": false,
+        "postalCode": "0****",
+        "city": "á***** O******",
+        "state": "Distrito Federal",
+        "country": "MEX",
+        "street": "P***** d* I****",
+        "number": "3*",
+        "neighborhood": "p***** c******* ",
+        "complement": "",
+        "reference": "r**** n****** p**** c***",
+        "geoCoordinates": [-51.4779552, -0.0039779]
+      }
+    ],
+    "availableAddresses": [
+      {
+        "addressType": "residential",
+        "receiverName": "r**** r*****",
+        "addressId": "9TFqgVrZ8C",
+        "isDisposable": false,
+        "postalCode": "0****",
+        "city": "á***** O******",
+        "state": "Distrito Federal",
+        "country": "MEX",
+        "street": "P***** d* I****",
+        "number": "3*",
+        "neighborhood": "p***** c******* ",
+        "complement": "",
+        "reference": "r**** n****** p**** c***",
+        "geoCoordinates": [-51.4779552, -0.0039779]
+      }
+    ],
+    "pickupPoints": [
+      {
+        "friendlyName": "C*************************",
+        "address": {
+          "addressType": "pickup",
+          "receiverName": null,
+          "addressId": "PP0098",
+          "isDisposable": true,
+          "postalCode": "0****",
+          "city": "C********* D* M******",
+          "state": "CDMX",
+          "country": "MEX",
+          "street": "P*********** V**** D* Q****** N** 3*** ",
+          "number": "",
+          "neighborhood": "C*** S**** F* C*********",
+          "complement": "",
+          "reference": null,
+          "geoCoordinates": [-51.4779552, -0.0039779]
+        },
+        "additionalInfo": "Obligatorio presentar identificación",
+        "id": "chedrauimx0098_PP0098",
+        "businessHours": [
+          {
+            "DayOfWeek": 0,
+            "OpeningTime": "08:00:00",
+            "ClosingTime": "22:00:00"
+          },
+          {
+            "DayOfWeek": 1,
+            "OpeningTime": "08:00:00",
+            "ClosingTime": "22:00:00"
+          },
+          {
+            "DayOfWeek": 2,
+            "OpeningTime": "08:00:00",
+            "ClosingTime": "22:00:00"
+          },
+          {
+            "DayOfWeek": 3,
+            "OpeningTime": "08:00:00",
+            "ClosingTime": "22:00:00"
+          },
+          {
+            "DayOfWeek": 4,
+            "OpeningTime": "08:00:00",
+            "ClosingTime": "22:00:00"
+          },
+          {
+            "DayOfWeek": 5,
+            "OpeningTime": "08:00:00",
+            "ClosingTime": "22:00:00"
+          },
+          {
+            "DayOfWeek": 6,
+            "OpeningTime": "08:00:00",
+            "ClosingTime": "22:00:00"
+          }
+        ]
+      }
+    ]
+  },
+  "paymentData": {
+    "giftCards": [
+      {
+        "redemptionCode": null,
+        "provider": "mimonedero",
+        "value": 0,
+        "balance": 0,
+        "name": null,
+        "caption": null,
+        "id": "6670910206343846",
+        "inUse": false,
+        "isSpecialCard": true,
+        "groupName": null
+      }
+    ],
+    "transactions": [
+      {
+        "isActive": true,
+        "transactionId": "DA38133165FD4678BB75A80367D46709",
+        "merchantName": "C*********",
+        "payments": [
+          {
+            "id": "B57FF135DF89402F8EDA02B372894238",
+            "paymentSystem": "201",
+            "paymentSystemName": "P******************",
+            "value": 67430,
+            "installments": 1,
+            "connectorResponses": {},
+            "referenceValue": 67430,
+            "cardHolder": null,
+            "cardNumber": null,
+            "firstDigits": null,
+            "lastDigits": null,
+            "cvv2": null,
+            "expireMonth": null,
+            "expireYear": null,
+            "url": null,
+            "koinUrl": null,
+            "tid": null,
+            "redemptionCode": null,
+            "giftCardId": null,
+            "giftCardProvider": null,
+            "giftCardAsDiscount": null,
+            "group": "promissory",
+            "dueDate": null,
+            "accountId": null,
+            "parentAccountId": null,
+            "bankIssuedInvoiceIdentificationNumber": null,
+            "bankIssuedInvoiceIdentificationNumberFormatted": null,
+            "bankIssuedInvoiceBarCodeNumber": null,
+            "bankIssuedInvoiceBarCodeType": null,
+            "billingAddress": null
+          }
+        ],
+        "sharedTransaction": false
+      }
+    ]
+  },
+  "clientPreferencesData": {
+    "locale": "es-MX",
+    "optinNewsLetter": false
+  },
+  "commercialConditionData": null,
+  "marketingData": {
+    "utmSource": null,
+    "utmMedium": null,
+    "utmCampaign": null,
+    "utmipage": null,
+    "utmiPart": null,
+    "utmiCampaign": null,
+    "coupon": null,
+    "marketingTags": ["Checkout Nuevo 2022"]
+  },
+  "storePreferencesData": {
+    "countryCode": "MEX",
+    "saveUserData": false,
+    "timeZone": "Central Standard Time (Mexico)",
+    "currencyCode": "MXN",
+    "currencyLocale": 2058,
+    "currencySymbol": "$",
+    "currencyFormatInfo": {
+      "currencyDecimalDigits": 2,
+      "currencyDecimalSeparator": ".",
+      "currencyGroupSeparator": ",",
+      "currencyGroupSize": 3,
+      "startsWithCurrencySymbol": true
+    }
+  },
+  "openTextField": null,
+  "invoiceData": {
+    "address": null,
+    "settleInvoices": ["3049449"]
+  },
+  "itemMetadata": null,
+  "taxData": null,
+  "customData": {
+    "customApps": [
+      {
+        "fields": {
+          "aliasAddress": "Casa",
+          "listAliasAddress": "Casa|Casa|Casa|Casa|Casa|Casa",
+          "idAliasAddress": "1|999|999|999|9TFqgVrZ8C|9TFqgVrZ8C"
+        },
+        "id": "localizador",
+        "major": 1
+      },
+      {
+        "fields": {
+          "metadata": "{\"disposition\":\"chedrauimx0098\",\"store\":\"CHEDRAUI SELECTO MEXICO SANTA FE\",\"internalUser\":false,\"kiosk\":false,\"specialSale\":true,\"visitorId\":\"cfd25df3-3096-4b1a-99dc-31852f287f1d\",\"shiptoPostalCode\":\"01700\",\"clientRegistered\":true,\"night_purchase\":false,\"fraudLineItem\":\"\",\"sellerChain\":\"chedrauimx0098\",\"email\":\"roman.retana@gmail.com\",\"ip\":\"189.131.68.178\",\"delivery_method\":1,\"fraudLineItem_skuId\":\"\",\"fraudLineItem_Department\":\"\",\"fraudLineItem_category\":\"\",\"fraudLineItem_subCategory\":\"\",\"restringidoPorVales\":false,\"vipUser\":true,\"userAge\":477,\"prevCustOrders\":0,\"lastPurchase\":8,\"average_ticket\":\"0.00\",\"purchaseDelta\":\"3\"}"
+        },
+        "id": "chedraui-payment-metadata",
+        "major": 1
+      },
+      {
+        "fields": {
+          "email": "r****.r*****@g****.c**",
+          "id": "6671911253549078"
+        },
+        "id": "mimonedero",
+        "major": 1
+      },
+      {
+        "fields": {
+          "skuData": "{}",
+          "substituteType": "2"
+        },
+        "id": "substitutedata",
+        "major": 1
+      },
+      {
+        "fields": {
+          "instrucciones-de-entrega": "false",
+          "recibe-por-ti": "[{nombre: 'false', telefono: false}]"
+        },
+        "id": "especificaciones-de-entrega",
+        "major": 1
+      }
+    ]
+  },
+  "hooksData": null,
+  "changeData": {
+    "changesData": [
+      {
+        "reason": "Items modificados",
+        "discountValue": 0,
+        "incrementValue": 0,
+        "itemsAdded": [
+          {
+            "id": "3691134",
+            "name": "N*********************************************************",
+            "quantity": 1,
+            "price": 5900,
+            "unitMultiplier": 1,
+            "measurementUnit": "un",
+            "imageUrl": "http://chedrauimx.vteximg.com.br/arquivos/ids/19102940-132-132/7501058797032_00.jpg?v=638303070477770000"
+          }
+        ],
+        "itemsRemoved": [
+          {
+            "id": "3785651",
+            "name": "E****************************************************",
+            "quantity": 1,
+            "price": 5100,
+            "unitMultiplier": 1,
+            "measurementUnit": "un",
+            "imageUrl": "http://chedrauimx.vteximg.com.br/arquivos/ids/19745885-132-132/7502283280153_00.jpg?v=638316110483030000"
+          }
+        ],
+        "receipt": {
+          "orderId": "1366913049449-01",
+          "date": "2023-10-06T20:36:21.8738781Z",
+          "receipt": "704da6b7-fa06-4c53-a023-74f669303278"
+        }
+      },
+      {
+        "reason": "Janis_Price_Changes_474987",
+        "discountValue": 0,
+        "incrementValue": 800,
+        "itemsAdded": [],
+        "itemsRemoved": [],
+        "receipt": {
+          "orderId": "1366913049449-01",
+          "date": "2023-10-06T20:36:27.1801553Z",
+          "receipt": "2ba8b4a2-2281-43ac-869f-83d8e6e93bad"
+        }
+      }
+    ]
+  },
+  "subscriptionData": null,
+  "salesChannel": "1",
+  "followUpEmail": "c**********************************.v***.c**.b*",
+  "creationDate": "2023-10-06T19:27:16.0655818Z",
+  "lastChange": "2023-10-06T20:36:38.9616235Z",
+  "timeZoneCreationDate": "2023-10-06T13:27:16.0655818",
+  "timeZoneLastChange": "2023-10-06T14:36:38.9616235",
+  "isCompleted": true,
+  "merchantName": null,
+  "userType": "",
+  "roundingError": 0,
+  "allowEdition": false,
+  "allowCancellation": false,
+  "isUserDataVisible": false,
+  "allowChangeSeller": false,
+  "_accountInfo": {
+    "MainAccountName": "c*********",
+    "AccountName": "c*********",
+    "Cnpj": "8507011",
+    "Id": "4095fcf9-f929-49a7-a818-8abd1f714a82",
+    "AppId": null,
+    "IsActive": true,
+    "IsOperating": true,
+    "CreationDate": "2020-11-18T17:17:27",
+    "OperationDate": "2022-05-29T17:21:19.1023391+00:00",
+    "CompanyName": "C*******",
+    "TradingName": "C*******",
+    "City": null,
+    "Complement": null,
+    "Country": null,
+    "State": null,
+    "Address": null,
+    "District": null,
+    "Number": null,
+    "PostalCode": null,
+    "Licenses": [7],
+    "ParentAccountId": null,
+    "ParentAccountName": null,
+    "InactivationDate": null,
+    "Platform": "vtex",
+    "Privacy": null,
+    "HasPiiRestriction": false,
+    "Infra": null
+  }
+}

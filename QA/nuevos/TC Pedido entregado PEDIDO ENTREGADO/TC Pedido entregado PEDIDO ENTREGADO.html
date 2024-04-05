@@ -1,0 +1,897 @@
+<!--
+=================================================
+ * Theme Name: Layout - Chedraui
+ * Company: Corebiz
+ * Author: Carlos Rodriguez Suarez
+ * TC - es un correo transaccional cliente
+ * Template - vtexcommerce-order-shipping-finished
+ * TC Pedido entregado PEDIDO ENTREGADO
+ * PEDIDO ENTREGADO
+ * Meta Title
+ * ¡Tu pedido {{subjectItemAttachment.item}} {{#if subjectItemAttachment.extraItems}} y más {{subjectItemAttachment.extraItems}} producto(s) {{/if}}. Han sido entregados!
+=================================================
+-->
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- So that mobile webkit will display zoomed in -->
+    <meta name="format-detection" content="telephone=no" />
+    <!-- disable auto telephone linking in iOS -->
+    <title>{{_accountInfo.TradingName}}</title>
+    <style type="text/css">
+      .delivery-group-content {
+        width: 50%;
+      }
+
+      .delivery-group-contents {
+        width: 50%;
+        text-align: right;
+      }
+
+      .mobile-box {
+        display: none !important;
+      }
+
+      @media screen and (max-width: 480px) {
+        .delivery-group-content {
+          width: 100%;
+          display: block;
+          overflow: hidden;
+          height: 100%;
+        }
+
+        .delivery-group-content div {
+          margin: 15px 0 0 0 !important;
+          min-height: inherit !important;
+        }
+
+        .delivery-group-contents {
+          width: 100%;
+          text-align: left;
+          display: block;
+        }
+
+        .delivery-group-content-table {
+          width: 100%;
+          display: table-cell;
+        }
+
+        .hide-mobile {
+          display: none;
+        }
+
+        .mobile-box {
+          display: inline-block !important;
+          padding-right: 10px;
+        }
+
+        .boxr {
+          float: right;
+        }
+
+        .w-100 {
+          width: 100%;
+        }
+      }
+    </style>
+  </head>
+
+  <body>
+    <table
+      style="max-width: 40rem"
+      width="100%"
+      cellpadding="15"
+      cellspacing="0"
+      border="0"
+      align="center"
+    >
+      <thead>
+        <!-- Header. Begin -->
+        <tr>
+          <td>
+            <table
+              width="100%"
+              cellpadding="0"
+              cellspacing="0"
+              style="border-bottom: solid 1px #dfe3e8"
+            >
+              <tr>
+                <td>
+                  <table width="100%" cellpadding="0" cellpadding="0">
+                    <tr>
+                      <td width="100%" valign="middle">
+                        <a
+                          href="https://www.chedraui.com.mx/"
+                          target="_blank"
+                          rel="noopener noreferrer"
+                        >
+                          <img
+                            style="
+                              display: block;
+                              width: 150px;
+                              max-width: 150px;
+                              height: auto;
+                              margin: 0 auto 15px;
+                            "
+                            src="https://chedrauimx.vteximg.com.br/arquivos/logoChedraui123456789.svg"
+                          />
+                        </a>
+                      </td>
+                    </tr>
+                  </table>
+                </td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+      </thead>
+      <!-- Header. End -->
+      <!-- Content. Begin -->
+      <tbody>
+        <!-- Inside Message Client. Begin -->
+        <tr>
+          <td>
+            <table width="100%" cellpadding="0" cellspacing="0">
+              <tr>
+                <td>
+                  <table width="100%" cellpadding="0" cellspacing="0">
+                    <tr>
+                      <td width="100%" valign="middle">
+                        <h2
+                          style="
+                            font-family: arial;
+                            font-size: 18px;
+                            font-weight: bold;
+                            color: #0077c8;
+                            line-height: 24px;
+                            letter-spacing: 0px;
+                            margin: 0;
+                            padding: 0;
+                            text-transform: capitalize;
+                          "
+                        >
+                          Hola, {{clientProfileData.firstName}}.
+                        </h2>
+                        <br />
+
+                        <p
+                          style="
+                            font-family: arial;
+                            font-size: 16px;
+                            font-weight: 400;
+                            color: #212b36;
+                            line-height: 22px;
+                            letter-spacing: 0px;
+                            margin: 0;
+                            padding: 0;
+                          "
+                        >
+                          <strong
+                            >Hemos entregado todos tus productos del
+                            pedido</strong
+                          >
+                          <strong style="color: #e57308">
+                            <!-- PAGO EN TIENDA CHEDRAUI Pre-pago en tiendas Chedraui -->
+                            {{#compare
+                            paymentData.transactions.0.payments.0.paymentSystem
+                            "==" 203}} {{eval
+                            "Handlebars.registerHelper('sellerTransform',
+                            function(string) { return
+                            string.toString().replace(/chedrauimx/g, '') });"}}
+                            #{{sellerTransform sellers.0.id}}-{{sequence}}
+                            {{/compare}} {{#compare
+                            paymentData.transactions.0.payments.0.paymentSystem
+                            "==" 202}} {{eval
+                            "Handlebars.registerHelper('sellerTransform',
+                            function(string) { return
+                            string.toString().replace(/chedrauimx/g, '') });"}}
+                            #{{sellerTransform sellers.0.id}}-{{sequence}}
+                            {{/compare}} {{#compare
+                            paymentData.transactions.0.payments.0.paymentSystem
+                            "!=" 203}} {{#compare
+                            paymentData.transactions.0.payments.0.paymentSystem
+                            "!=" 202}} {{orderId}} {{/compare}} {{/compare}} </strong
+                          >¡esperamos que los disfrutes!. Te esperamos pronto.
+                        </p>
+                        <br />
+                        <p
+                          style="
+                            font-family: arial;
+                            font-size: 16px;
+                            font-weight: 400;
+                            color: #212b36;
+                            line-height: 22px;
+                            letter-spacing: 0px;
+                            margin: 0;
+                            padding: 0;
+                            text-align: center;
+                          "
+                        >
+                          ¡Gracias por tu preferencia!
+                        </p>
+                      </td>
+                    </tr>
+                  </table>
+                </td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+        <!-- Inside Message Client. End -->
+        <!-- Inside Product. Begin -->
+
+        <!-- Inside Product. End -->
+        <!-- Inside Payment Summary. Begin -->
+        <tr>
+          <td>
+            <table width="100%" cellpadding="0" cellspacing="0">
+              <tr>
+                <td>
+                  <table width="100%" cellpadding="0" cellspacing="0">
+                    <tr>
+                      <td width="50%" align="left" valign="middle">
+                        <h2
+                          style="
+                            font-family: arial;
+                            font-size: 16px;
+                            font-weight: bold;
+                            color: #0077c8;
+                            margin: 0;
+                            padding: 0;
+                            line-height: 18px;
+                          "
+                        >
+                          Resumen final de la transacción
+                        </h2>
+                      </td>
+                      <td width="50%" align="right" valign="middle">
+                        <p
+                          style="
+                            font-family: arial;
+                            font-size: 12px;
+                            font-weight: 400;
+                            color: #212b36;
+                            margin: 0;
+                            padding: 0;
+                            line-height: 14px;
+                            opacity: 0.48;
+                          "
+                        >
+                          Impuestos incluidos
+                        </p>
+                      </td>
+                    </tr>
+                  </table>
+                </td>
+              </tr>
+            </table>
+            <table
+              width="100%"
+              cellpadding="15"
+              cellspacing="0"
+              style="
+                border: solid 1px #dfe3e8;
+                border-radius: 8px 8px 0 0;
+                margin: 15px 0 0 0;
+              "
+            >
+              <!-- Inside Productos Orders. Begin -->
+              <tr>
+                <td>
+                  <table
+                    class="w-100"
+                    width="60%"
+                    cellspacing="8"
+                    cellpadding="0"
+                    align="right"
+                  >
+                    <tbody>
+                      {{#each totals}} {{#if value}}
+                      <tr>
+                        <td valign="middle" align="left">
+                          {{#eq id "Items"}}
+                          <p
+                            style="
+                              font-family: arial;
+                              font-size: 14px;
+                              font-weight: 400;
+                              color: #212b36;
+                              line-height: 20px;
+                              letter-spacing: 0;
+                              margin: 0;
+                              padding: 0;
+                            "
+                          >
+                            Subtotal
+                          </p>
+                          {{/eq}} {{#eq id "Shipping"}}
+                          <p
+                            style="
+                              font-family: arial;
+                              font-size: 14px;
+                              font-weight: 400;
+                              color: #212b36;
+                              line-height: 20px;
+                              letter-spacing: 0;
+                              margin: 0;
+                              padding: 0;
+                            "
+                          >
+                            Costo de envío
+                          </p>
+                          {{/eq}} {{#eq id "Discounts"}}
+                          <p
+                            style="
+                              font-family: arial;
+                              font-size: 14px;
+                              font-weight: 400;
+                              color: #e57308;
+                              line-height: 20px;
+                              letter-spacing: 0;
+                              margin: 0;
+                              padding: 0;
+                            "
+                          >
+                            En Chedraui ahorras
+                          </p>
+                          {{/eq}} {{#eq id "Tax"}}
+                          <p
+                            style="
+                              font-family: arial;
+                              font-size: 14px;
+                              font-weight: 400;
+                              color: #212b36;
+                              line-height: 20px;
+                              letter-spacing: 0;
+                              margin: 0;
+                              padding: 0;
+                            "
+                          >
+                            Taxas
+                          </p>
+                          {{/eq}} {{#eq id "Change"}}
+                          <p
+                            style="
+                              font-family: arial;
+                              font-size: 14px;
+                              font-weight: 400;
+                              color: #212b36;
+                              line-height: 20px;
+                              letter-spacing: 0;
+                              margin: 0;
+                              padding: 0;
+                            "
+                          >
+                            Modificaciones
+                          </p>
+                          {{/eq}}
+                        </td>
+                        <td valign="top" align="right">
+                          {{#eq id "Items"}}
+                          <p
+                            style="
+                              font-family: arial;
+                              font-size: 14px;
+                              font-weight: 400;
+                              color: #212b36;
+                              line-height: 20px;
+                              letter-spacing: 0;
+                              margin: 0;
+                              padding: 0;
+                            "
+                          >
+                            $ {{formatUSDCurrency value}}
+                          </p>
+                          {{/eq}} {{#eq id "Shipping"}}
+                          <p
+                            style="
+                              font-family: arial;
+                              font-size: 14px;
+                              font-weight: 400;
+                              color: #212b36;
+                              line-height: 20px;
+                              letter-spacing: 0;
+                              margin: 0;
+                              padding: 0;
+                            "
+                          >
+                            $ {{formatUSDCurrency value}}
+                          </p>
+                          {{/eq}} {{#eq id "Tax"}}
+                          <p
+                            style="
+                              font-family: arial;
+                              font-size: 14px;
+                              font-weight: 400;
+                              color: #212b36;
+                              line-height: 20px;
+                              letter-spacing: 0;
+                              margin: 0;
+                              padding: 0;
+                            "
+                          >
+                            $ {{formatUSDCurrency value}}
+                          </p>
+                          {{/eq}} {{#eq id "Change"}}
+                          <p
+                            style="
+                              font-family: arial;
+                              font-size: 14px;
+                              font-weight: 400;
+                              color: #212b36;
+                              line-height: 20px;
+                              letter-spacing: 0;
+                              margin: 0;
+                              padding: 0;
+                            "
+                          >
+                            $ {{formatUSDCurrency value}}
+                          </p>
+                          {{/eq}} {{#eq id "Discounts"}}
+                          <p
+                            style="
+                              font-family: arial;
+                              font-size: 14px;
+                              font-weight: 400;
+                              color: #e57308;
+                              line-height: 20px;
+                              letter-spacing: 0;
+                              margin: 0;
+                              padding: 0;
+                            "
+                          >
+                            $ {{formatUSDCurrency value}}
+                          </p>
+                          {{/eq}}
+                        </td>
+                      </tr>
+                      {{/if}} {{/each}} {{#if value}}
+                      <tr>
+                        <td valign="top" align="left">
+                          <p
+                            style="
+                              font-family: arial;
+                              font-size: 16px;
+                              font-weight: bold;
+                              color: #0077c8;
+                              line-height: 24px;
+                              letter-spacing: 0;
+                              margin: 0;
+                              padding: 0;
+                            "
+                          >
+                            Total del pedido
+                          </p>
+                        </td>
+                        <td valign="top" align="right">
+                          <p
+                            style="
+                              font-family: arial;
+                              font-size: 16px;
+                              font-weight: bold;
+                              color: #0077c8;
+                              line-height: 24px;
+                              letter-spacing: 0;
+                              margin: 0;
+                              padding: 0;
+                            "
+                          >
+                            $ {{formatUSDCurrency value}}
+                          </p>
+                        </td>
+                      </tr>
+                      {{/if}}
+                    </tbody>
+                  </table>
+                </td>
+              </tr>
+              <!-- Inside Productos Orders. End -->
+            </table>
+            <table
+              width="100%"
+              cellpadding="15"
+              cellspacing="0"
+              style="
+                background: #f0f5fd;
+                border: solid 1px #f0f5fd;
+                border-radius: 0px;
+              "
+            >
+              <!-- Inside Productos Orders. Begin -->
+              <tr>
+                <td>
+                  <table
+                    class="w-100"
+                    width="60%"
+                    cellspacing="8"
+                    cellpadding="0"
+                    align="right"
+                  >
+                    <tbody>
+                      {{#if value}}
+                      <tr>
+                        <td valign="top" align="left">
+                          <p
+                            style="
+                              font-family: arial;
+                              font-size: 16px;
+                              font-weight: bold;
+                              color: #0077c8;
+                              line-height: 24px;
+                              letter-spacing: 0;
+                              margin: 0 0 10px 0;
+                              padding: 0;
+                            "
+                          >
+                            Total pagado
+                          </p>
+                          <hr
+                            style="
+                              margin: 0 0 5 px 0;
+                              border: 0.5 px solid #dfe3e8;
+                              opacity: 0.35;
+                            "
+                          />
+                        </td>
+                        <td valign="top" align="right">
+                          <p
+                            style="
+                              font-family: arial;
+                              font-size: 16px;
+                              font-weight: bold;
+                              color: #0077c8;
+                              line-height: 24px;
+                              letter-spacing: 0;
+                              margin: 0 0 10px 0;
+                              padding: 0;
+                            "
+                          >
+                            $ {{formatUSDCurrency value}}
+                          </p>
+                          <hr
+                            style="
+                              margin: 0 0 5 px 0;
+                              border: 0.5 px solid #dfe3e8;
+                              opacity: 0.35;
+                            "
+                          />
+                        </td>
+                      </tr>
+                      {{/if}}
+                    </tbody>
+                  </table>
+                </td>
+              </tr>
+              <!-- Inside Productos Orders. End -->
+            </table>
+          </td>
+        </tr>
+        <!-- Inside Payment Summary. End -->
+        <!-- Start Factura -->
+        <tr>
+          <td>
+            <table>
+              <tr>
+                <p
+                  style="
+                    font-family: arial;
+                    font-size: 16px;
+                    font-weight: bold;
+                    color: #212b36;
+                    line-height: 22px;
+                    letter-spacing: 0px;
+                    margin: 0;
+                    padding: 0;
+                    text-align: center;
+                  "
+                >
+                  <strong> ¿Necesitas factura?</strong>
+                </p>
+                <p style="text-align: center">
+                  <a
+                    href="https://www.masfacturaweb.com.mx/chedraui/chedraui_mfw.aspx"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    style="
+                      font-family: arial;
+                      font-size: 12px;
+                      font-weight: bold;
+                      color: #ffffff;
+                      line-height: 16px;
+                      letter-spacing: 0;
+                      padding: 10px;
+                      border-radius: 5px;
+                      background: #e57308;
+                      display: inline-block;
+                      width: 235px;
+                      text-decoration: none;
+                      cursor: pointer;
+                      text-align: center;
+                    "
+                  >
+                    Genérala aquí
+                  </a>
+                </p>
+              </tr>
+            </table>
+          </td>
+        </tr>
+        <!-- End Factura -->
+      </tbody>
+    </table>
+
+    <!-- Start Califica tu pedido -->
+    <table
+      width="100%"
+      cellpadding="24px"
+      cellspacing="0"
+      align="center"
+      style="
+        border: solid 1px #f0f5fd;
+        background: #f0f5fd;
+        border-radius: 8px;
+        max-width: 40rem;
+        margin-bottom: 20px;
+      "
+    >
+      <tr>
+        <td width="70%" valign="middle" align="left">
+          <h3
+            style="
+              font-family: arial;
+              display: block;
+              font-size: 14px;
+              font-weight: bold;
+              color: #0077c8;
+              line-height: 16px;
+              padding: 0;
+              margin: 0;
+            "
+          >
+            Califica tu experiencia
+          </h3>
+          <p
+            style="
+              font-family: arial;
+              display: block;
+              font-size: 14px;
+              font-weight: 400;
+              line-height: 16px;
+              padding: 0;
+              margin: 0;
+              margin-top: 10px;
+            "
+          >
+            Tu opinión es importante para nosotros. Ayúdanos con estas
+            preguntas. Te tomará 5 minutos.
+          </p>
+          <a
+            href="https://omni.chedraui.com.mx/limesurvey/index.php/481344?p=%7b%7borders.0.orderId%7d%7d&amp;c=web"
+            target="_blank"
+            rel="noopener noreferrer"
+            style="
+              font-family: arial;
+              font-size: 12px;
+              font-weight: bold;
+              color: #17212e;
+              line-height: 16px;
+              letter-spacing: 0;
+              padding: 8px;
+              border-radius: 5px;
+              background: #fbc02d;
+              display: inline-block;
+              width: 181px;
+              text-decoration: none;
+              cursor: pointer;
+              text-align: center;
+              margin-top: 10px;
+            "
+          >
+            Contesta la encuesta
+          </a>
+        </td>
+        <td width="30%" valign="middle" align="center">
+          <img
+            style="
+              display: block;
+              width: 74px;
+              max-width: 74px;
+              height: auto;
+              margin: auto;
+              display: flex;
+              align-items: center;
+            "
+            src="https://chedrauimx.vtexassets.com/arquivos/box.png"
+          />
+        </td>
+      </tr>
+    </table>
+    <!-- End Califica tu pedido -->
+    <!-- Start Centro de ayuda -->
+    <section>
+      <table width="100%" cellpadding="0" cellspacing="0" bgcolor="#F0F5FD">
+        <tr>
+          <td width="100%" valign="middle">
+            <strong
+              style="
+                font-family: arial;
+                display: block;
+                font-size: 14px;
+                font-weight: bold;
+                color: #0077c8;
+                line-height: 16px;
+                padding: 15px;
+                padding-bottom: 0;
+                margin: 0;
+              "
+              >¿Necesitas ayuda?
+            </strong>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <table width="100%" cellpadding="0" cellspacing="15">
+              <tr>
+                <td
+                  width="33.3%"
+                  height="84px"
+                  valign="middle"
+                  align="center"
+                  bgcolor="#FFFFFF"
+                  style="border: solid 1px #0d47a11f; border-radius: 6px"
+                >
+                  <img
+                    style="width: 50px; max-width: 50px; height: auto"
+                    src="https://chedrauimx.vteximg.com.br/arquivos/ayuda.png"
+                  />
+                  <a
+                    href="https://www.chedraui.com.mx/centro-de-ayuda"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    style="
+                      font-family: arial;
+                      display: block;
+                      font-size: 10px;
+                      font-weight: bold;
+                      color: #0077c8;
+                      line-height: 16px;
+                      padding: 0;
+                      margin: 0;
+                      text-decoration: none;
+                    "
+                  >
+                    Visita el Centro de ayuda</a
+                  >
+                </td>
+                <td
+                  width="33.3%"
+                  height="84px"
+                  valign="middle"
+                  align="center"
+                  bgcolor="#FFFFFF"
+                  style="border: solid 1px #0d47a11f; border-radius: 6px"
+                >
+                  <img
+                    style="width: 50px; max-width: 50px; height: auto"
+                    src="https://chedrauimx.vteximg.com.br/arquivos/llamanos.png"
+                  />
+                  <a
+                    href="tel:55-5563-2222"
+                    style="
+                      font-family: arial;
+                      display: block;
+                      font-size: 10px;
+                      font-weight: bold;
+                      color: #0077c8;
+                      line-height: 16px;
+                      padding: 0;
+                      margin: 0;
+                      text-decoration: none;
+                    "
+                  >
+                    Llámanos al 55 5563 2222</a
+                  >
+                </td>
+                <td
+                  width="33.3%"
+                  height="84px"
+                  valign="middle"
+                  align="center"
+                  bgcolor="#FFFFFF"
+                  style="border: solid 1px #0d47a11f; border-radius: 6px"
+                >
+                  <img
+                    style="width: 50px; max-width: 50px; height: auto"
+                    src="https://chedrauimx.vteximg.com.br/arquivos/correo.png"
+                  />
+                  <a
+                    href="mailto:ayuda@chedraui.com.mx"
+                    style="
+                      font-family: arial;
+                      display: block;
+                      font-size: 10px;
+                      font-weight: bold;
+                      color: #0077c8;
+                      line-height: 16px;
+                      padding: 0;
+                      margin: 0;
+                      text-decoration: none;
+                    "
+                  >
+                    Envíanos un correo</a
+                  >
+                </td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+      </table>
+    </section>
+    <table
+      width="100%"
+      cellpadding="0"
+      cellspacing="0"
+      style="margin-top: 40px"
+    >
+      <tr>
+        <td width="100%" valign="middle" align="center">
+          <img
+            style="
+              display: block;
+              width: 125px;
+              max-width: 125px;
+              height: auto;
+              margin: 0 auto 15px;
+            "
+            src="https://chedrauimx.vteximg.com.br/arquivos/chedrauicom.png"
+          />
+          <p
+            style="
+              font-family: arial;
+              font-size: 10px;
+              font-weight: 400;
+              color: #212b367a;
+              line-height: 11px;
+              margin: 0;
+              padding: 0;
+            "
+          >
+            Conoce nuestros
+            <a
+              style="text-decoration: underline; color: #212b367a"
+              href="https://www.chedraui.com.mx/terminos-y-condiciones/politica-privacidad"
+              target="_blank"
+              rel="noopener noreferrer"
+              >Aviso de Privacidad</a
+            >
+            y
+            <a
+              style="text-decoration: underline; color: #212b367a"
+              href="https://www.chedraui.com.mx/terminos-y-condiciones"
+              target="_blank"
+              rel="noopener noreferrer"
+              >Términos y Condiciones</a
+            >.
+          </p>
+          <p
+            style="
+              font-family: arial;
+              font-size: 10px;
+              font-weight: 400;
+              color: #212b367a;
+              line-height: 11px;
+              margin: 8px 0;
+              padding: 0;
+            "
+          >
+            Chedraui, 2024.
+          </p>
+        </td>
+      </tr>
+    </table>
+    <!-- End Centro de ayuda -->
+  </body>
+</html>
