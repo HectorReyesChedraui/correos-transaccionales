@@ -1,0 +1,1837 @@
+<!--
+=================================================
+ * Theme Name: Layout - Chedraui
+ * Company: Corebiz
+ * Author: Carlos Rodriguez Suarez
+ * TC - es un correo transaccional cliente
+ * Template - vtexcommerce-ready-to-pickup
+ * TC Listo para recoger LISTO PARA RECOGER
+ * LISTO PARA RECOGER
+ * Meta Title
+ * ¡Tu pedido esta listo para recoger!
+=================================================
+-->
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- So that mobile webkit will display zoomed in -->
+    <meta name="format-detection" content="telephone=no" />
+    <!-- disable auto telephone linking in iOS -->
+    <title>{{_accountInfo.TradingName}}</title>
+    <style type="text/css">
+      .delivery-group-content {
+        width: 50%;
+      }
+
+      .delivery-group-contents {
+        width: 50%;
+        text-align: right;
+      }
+
+      .mobile-box {
+        display: none !important;
+      }
+
+      @media screen and (max-width: 480px) {
+        .delivery-group-content {
+          width: 100%;
+          display: block;
+        }
+
+        .delivery-group-content div {
+          margin: 15px 0 0 0 !important;
+          min-height: inherit !important;
+        }
+
+        .delivery-group-contents {
+          width: 100%;
+          text-align: left;
+          display: block;
+        }
+
+        .delivery-group-content-table {
+          width: 100%;
+          display: table-cell;
+        }
+
+        .hide-mobile {
+          display: none;
+        }
+
+        .mobile-box {
+          display: inline-block !important;
+          padding-right: 10px;
+        }
+
+        .boxr {
+          float: right;
+        }
+
+        .w-100 {
+          width: 100%;
+        }
+      }
+    </style>
+  </head>
+
+  <body>
+    <table
+      style="max-width: 40rem"
+      width="100%"
+      cellpadding="15"
+      cellspacing="0"
+      border="0"
+      align="center"
+    >
+      <thead>
+        <!-- Header. Begin -->
+        <tr>
+          <td>
+            <table
+              width="100%"
+              cellpadding="0"
+              cellspacing="0"
+              style="border-bottom: solid 1px #dfe3e8"
+            >
+              <tr>
+                <td>
+                  <table width="100%" cellpadding="0" cellpadding="0">
+                    <tr>
+                      <td width="100%" valign="middle">
+                        <a
+                          href="https://nuevo.chedraui.com.mx/"
+                          target="_blank"
+                          rel="noopener noreferrer"
+                        >
+                          <img
+                            src="https://chedrauimx.vteximg.com.br/arquivos/logoChedraui123456789.svg"
+                            style="
+                              display: block;
+                              width: 150px;
+                              max-width: 150px;
+                              height: auto;
+                              margin: 0 auto 15px;
+                            "
+                          />
+                        </a>
+                      </td>
+                    </tr>
+                  </table>
+                </td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+      </thead>
+      <!-- Header. End -->
+      <!-- Content. Begin -->
+      <tbody>
+        <!-- Inside Message Client. Begin -->
+        <tr>
+          <td>
+            <table width="100%" cellpadding="0" cellspacing="0">
+              <tr>
+                <td>
+                  <table width="100%" cellpadding="0" cellspacing="0">
+                    <tr>
+                      <td width="100%" valign="middle">
+                        <h2
+                          style="
+                            font-family: arial;
+                            font-size: 18px;
+                            font-weight: bold;
+                            color: #0077c8;
+                            line-height: 24px;
+                            letter-spacing: 0px;
+                            margin: 0;
+                            padding: 0;
+                            text-transform: capitalize;
+                          "
+                        >
+                          Hola, {{clientProfileData.firstName}}.
+                        </h2>
+                        <br />
+                        <p
+                          style="
+                            font-family: arial;
+                            font-size: 16px;
+                            font-weight: 400;
+                            color: #212b36;
+                            line-height: 22px;
+                            letter-spacing: 0px;
+                            margin: 0;
+                            padding: 0;
+                          "
+                        >
+                          Tu pedido
+                          <strong style="color: #e57308">{{orderId}}</strong> ya
+                          está listo. Puedes recogerlo en
+                        </p>
+                        <strong
+                          style="
+                            color: black;
+                            font-family: arial;
+                            font-size: 16px;
+                            font-weight: 400;
+                            color: #212b36;
+                            line-height: 22px;
+                            letter-spacing: 0px;
+                            margin: 0;
+                            padding: 0;
+                          "
+                        >
+                          {{shippingData.logisticsInfo.0.pickupStoreInfo.friendlyName}}</strong
+                        >
+                        <p
+                          style="
+                            font-family: arial;
+                            font-size: 16px;
+                            font-weight: 400;
+                            color: #212b36;
+                            line-height: 22px;
+                            letter-spacing: 0px;
+                            margin: 0;
+                            padding: 0;
+                          "
+                        >
+                          Te estaremos esperando hasta el
+                          <strong
+                            style="
+                              color: black;
+                              font-family: arial;
+                              font-size: 16px;
+                              font-weight: 400;
+                              color: #212b36;
+                              line-height: 22px;
+                              letter-spacing: 0px;
+                              margin: 0;
+                              padding: 0;
+                            "
+                          >
+                            {{shippingData.logisticsInfo.0.deliveryWindow.endDateUtc}}.</strong
+                          >
+                          ¡No lo olvides!
+                        </p>
+                      </td>
+                    </tr>
+                  </table>
+                </td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+
+        <!-- Inside Message Client. End -->
+        <!-- Inside button location start -->
+        <tr>
+          <td>
+            <table width="100%" cellpadding="0" cellspacing="0">
+              <tr>
+                <td width="100%" valign="middle" align="center">
+                  {{#compare
+                  orders.0.paymentData.transactions.0.payments.0.paymentSystem
+                  "!=" 202}}
+                  <p>
+                    <a
+                      href="https://www.grupochedraui.com.mx/en/directorio-de-tiendas/index.html"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      style="
+                        font-family: arial;
+                        font-size: 12px;
+                        font-weight: 400;
+                        color: #ffffff;
+                        line-height: 16px;
+                        letter-spacing: 0;
+                        padding: 10px;
+                        border-radius: 5px;
+                        background: #e57308;
+                        display: inline-block;
+                        width: 235px;
+                        text-decoration: none;
+                        cursor: pointer;
+                      "
+                    >
+                      Ubica tu tienda
+                    </a>
+                  </p>
+                  {{/compare}}
+                </td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+        <!-- Inside button location  End -->
+
+        <!-- Inside Delivered to Customer. Begin -->
+        <tr>
+          <td>
+            <table width="100%" cellpadding="0" cellspacing="0">
+              <tr>
+                <td>
+                  <table width="100%" cellpadding="0" cellspacing="0">
+                    <tr>
+                      <td width="100%" valign="middle">
+                        <h2
+                          style="
+                            font-family: arial;
+                            font-size: 16px;
+                            font-weight: bold;
+                            color: #0077c8;
+                            margin: 0;
+                            padding: 0;
+                            line-height: 18px;
+                          "
+                        >
+                          Detalle de tu pedido
+                        </h2>
+                      </td>
+                    </tr>
+                  </table>
+                  <table width="100%" cellpadding="0" cellspacing="0">
+                    <tr>
+                      <td valign="top" class="delivery-group-content">
+                        <div
+                          style="
+                            border: solid 1px #dfe3e8;
+                            border-radius: 8px;
+                            margin: 15px 5px 0 0;
+                            padding: 15px;
+                            height: 100%;
+                            min-height: 180px;
+                          "
+                        >
+                          {{#compare orders.0.shippingData.address.addressType
+                          '==' "pickup"}}
+                          <strong
+                            style="
+                              font-family: arial;
+                              display: block;
+                              font-size: 12px;
+                              font-weight: bold;
+                              color: #454f5b7a;
+                              line-height: 18px;
+                              padding: 0;
+                              margin: 0;
+                            "
+                            >Dirección de recolección</strong
+                          >
+                          <p
+                            style="
+                              font-family: arial;
+                              display: block;
+                              font-size: 14px;
+                              font-weight: 400;
+                              color: #212b36;
+                              line-height: 18px;
+                              padding: 0;
+                              margin: 0;
+                              text-transform: capitalize;
+                            "
+                          >
+                            {{orders.0.shippingData.logisticsInfo.0.slas.0.deliveryIds.0.courierName}}
+                          </p>
+                          {{/compare}} {{#compare
+                          orders.0.shippingData.address.addressType '!='
+                          "pickup"}}
+                          <strong
+                            style="
+                              font-family: arial;
+                              display: block;
+                              font-size: 12px;
+                              font-weight: bold;
+                              color: #454f5b7a;
+                              line-height: 18px;
+                              padding: 0;
+                              margin: 0;
+                            "
+                            >Dirección de envío</strong
+                          >
+                          <p
+                            style="
+                              font-family: arial;
+                              display: block;
+                              font-size: 14px;
+                              font-weight: 400;
+                              color: #212b36;
+                              line-height: 18px;
+                              padding: 0;
+                              margin: 0;
+                              text-transform: capitalize;
+                            "
+                          >
+                            {{orders.0.shippingData.address.street}} {{#if
+                            orders.0.shippingData.address.number }}
+                            No.{{orders.0.shippingData.address.number}} {{/if}}
+                            <br />
+                            {{#if orders.0.shippingData.address.complement }}
+                            Piso ó Apartamento:
+                            {{orders.0.shippingData.address.complement}} <br />
+                            {{/if}} {{#if
+                            orders.0.shippingData.address.neighborhood }}
+                            {{orders.0.shippingData.address.neighborhood}}
+                            <br />
+                            {{/if}} {{orders.0.shippingData.address.city}} -
+                            {{orders.0.shippingData.address.state}} <br />
+                            C.P. {{orders.0.shippingData.address.postalCode}}
+                          </p>
+                          {{/compare}}
+                          <br />
+                          <strong
+                            style="
+                              font-family: arial;
+                              display: block;
+                              font-size: 12px;
+                              font-weight: bold;
+                              color: #454f5b7a;
+                              line-height: 18px;
+                              padding: 0;
+                              margin: 0;
+                            "
+                            >Datos de contacto</strong
+                          >
+                          <p
+                            style="
+                              font-family: arial;
+                              display: block;
+                              font-size: 14px;
+                              font-weight: 400;
+                              color: #212b36;
+                              line-height: 18px;
+                              padding: 0;
+                              margin: 0;
+                              text-transform: capitalize;
+                            "
+                          >
+                            {{orders.0.clientProfileData.firstName}}
+                            {{orders.0.clientProfileData.lastName}}
+                            <br />
+                            {{orders.0.clientProfileData.phone}}
+                          </p>
+                        </div>
+                      </td>
+                      <td valign="top" class="delivery-group-content">
+                        <div
+                          style="
+                            border: solid 1px #dfe3e8;
+                            border-radius: 8px;
+                            margin: 15px 0 0 10px;
+                            padding: 15px;
+                            height: 100%;
+                            min-height: 180px;
+                          "
+                        >
+                          <strong
+                            style="
+                              font-family: arial;
+                              display: block;
+                              font-size: 12px;
+                              font-weight: bold;
+                              color: #454f5b7a;
+                              line-height: 18px;
+                              padding: 0;
+                              margin: 0;
+                            "
+                            >Método de pago</strong
+                          >
+                          <p
+                            style="
+                              font-family: arial;
+                              display: block;
+                              font-size: 14px;
+                              font-weight: 400;
+                              color: #212b36;
+                              line-height: 18px;
+                              padding: 0;
+                              margin: 0;
+                            "
+                          >
+                            {{#each orders.0.paymentData.transactions}} {{#each
+                            payments}} {{#eq paymentSystem '1'}} Pago con
+                            Tarjeta •••• {{lastDigits}}
+                            <br />
+                            <strong>$ {{formatUSDCurrency value}}</strong>
+                            <br />
+                            {{/eq}}
+                            <!-- VISA -->
+                            {{#eq paymentSystem '2'}} Pago con Tarjeta ••••
+                            {{lastDigits}}
+                            <br />
+                            <strong>$ {{formatUSDCurrency value}}</strong>
+                            <br />
+                            {{/eq}}
+                            <!-- MASTERCARD   -->
+                            {{#eq paymentSystem '4'}} Pago con Tarjeta ••••
+                            {{lastDigits}}
+                            <br />
+                            <strong>$ {{formatUSDCurrency value}}</strong>
+                            <br />
+                            {{/eq}}
+                            <!-- PAYPAL -->
+                            {{#eq paymentSystem '12'}} Pago con
+                            <strong>Paypal</strong>
+                            <br />
+                            <strong>$ {{formatUSDCurrency value}}</strong>
+                            <br />
+                            {{/eq}}
+                            <!-- VALE -->
+                            {{#eq paymentSystem '16'}} Pago con
+                            <strong>Monedero Mi Chedraui</strong>
+                            <br />
+                            <strong>$ {{formatUSDCurrency value}}</strong>
+                            <br />
+                            {{/eq}}
+                            <!-- CASH ON DELIVERY -->
+                            {{#eq paymentSystem '201'}} Forma de pago:
+                            <strong
+                              >Pago contraentrega (al recibir tu pedido)</strong
+                            >
+                            <br />
+                            <strong>$ {{formatUSDCurrency value}}</strong>
+                            <br />
+                            {{/eq}}
+                            <!-- PAGO EN TIENDA -->
+                            {{#eq paymentSystem '202'}} Forma de pago:
+                            <strong
+                              >Pre-pago en establecimientos asociados</strong
+                            >
+                            <br />
+                            <strong>$ {{formatUSDCurrency value}}</strong>
+                            <br />
+                            {{/eq}}
+                            <!-- PAGO EN TIENDA CHEDRAUI -->
+                            {{#eq paymentSystem '203'}} Forma de pago:
+                            <strong>Pre-pago en tiendas Chedraui</strong>
+                            <br />
+                            <strong>$ {{formatUSDCurrency value}}</strong>
+                            <br />
+                            {{/eq}}
+                            <!-- PUNTOS BBVA -->
+                            {{#eq paymentSystem '501'}} Pago con
+                            <strong>puntos BBVA</strong>
+                            <br />
+                            <strong>$ {{formatUSDCurrency value}}</strong>
+                            <br />
+                            {{/eq}}
+                            <!-- VALES -->
+                            {{#eq paymentSystem '502'}} Pago con
+                            <strong>Vales de despensa electrónicos</strong>
+                            <br />
+                            <strong>$ {{formatUSDCurrency value}}</strong>
+                            <br />
+                            {{/eq}} {{#compare installments '!=' 1}}
+                            <small style="font-style: italic; color: #212b367a">
+                              ({{installments}}x)</small
+                            ><br />
+                            {{/compare}} {{/each}} {{/each}}
+                            <!-- AMERICAN EXPRESS -->
+                            Entregado por: <strong>Chedraui</strong>
+                          </p>
+                        </div>
+                      </td>
+                    </tr>
+                  </table>
+                </td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+        <!-- Inside Delivered to Customer. End -->
+        <!-- Inside Product. Begin -->
+        <tr>
+          <td>
+            <table width="100%" cellpadding="0" cellspacing="0">
+              <tr>
+                <td>
+                  <table width="100%" cellpadding="0" cellspacing="0">
+                    <tr>
+                      <td valign="middle">
+                        <h2
+                          style="
+                            font-family: arial;
+                            font-size: 16px;
+                            font-weight: bold;
+                            color: #0077c8;
+                            margin: 0;
+                            padding: 0;
+                            line-height: 18px;
+                          "
+                        >
+                          Productos incluidos
+                        </h2>
+                        <br />
+                      </td>
+                    </tr>
+                  </table>
+                </td>
+              </tr>
+            </table>
+            <table
+              width="100%"
+              cellpadding="15"
+              cellspacing="0"
+              style="background: #f0f5fd"
+            >
+              <tr>
+                <td>
+                  <table width="100%" cellpadding="0" cellspacing="0">
+                    <tr>
+                      <td valign="middle">
+                        <p
+                          class="delivery-group-content"
+                          style="
+                            font-family: arial;
+                            font-size: 12px;
+                            font-weight: 400;
+                            line-height: 20px;
+                            color: #0077c8;
+                            float: left;
+                            margin: 0;
+                            letter-spacing: -1px;
+                            white-space: nowrap;
+                            text-overflow: ellipsis;
+                            overflow: hidden;
+                          "
+                        >
+                          <img
+                            style="
+                              display: inline-block;
+                              vertical-align: middle;
+                              width: 20px;
+                              max-width: 20px;
+                              height: auto;
+                              margin: auto;
+                            "
+                            src="https://chedrauimx.vteximg.com.br/arquivos/assets-envio-che.png"
+                          />
+                          {{shippingData.logisticsInfo.0.deliveryIds.0.courierName}}
+                        </p>
+                        {{#compare shippingData.logisticsInfo.0.deliveryWindow
+                        "!=" null}}
+                        <p
+                          class="delivery-group-contents"
+                          style="
+                            font-family: arial;
+                            font-size: 12px;
+                            font-weight: 400;
+                            line-height: 20px;
+                            color: #0077c8;
+                            float: right;
+                            margin: 0;
+                          "
+                        >
+                          <img
+                            style="
+                              display: inline-block;
+                              vertical-align: middle;
+                              width: 20px;
+                              max-width: 20px;
+                              height: auto;
+                              margin: auto;
+                            "
+                            src="https://chedrauimx.vteximg.com.br/arquivos/assets-calendario-che.png"
+                          />
+                          {{eval "Handlebars.registerHelper('boxstartutc',
+                          function(string) { let startDateUtc =
+                          string.split('+'); return startDateUtc[0]; });"}}
+                          {{eval "Handlebars.registerHelper('boxendutc',
+                          function(string) { let endDateUtc = string.split('+');
+                          return endDateUtc[0]; });"}} {{eval
+                          "Handlebars.registerHelper('formatUSDateCol',
+                          function(value) { return _formatDateTime(value,
+                          'dd/MM/yyyy'); });"}} {{formatUSDateCol
+                          shippingData.logisticsInfo.0.shippingEstimateDate}} de
+                          {{formatTime (boxstartutc
+                          shippingData.logisticsInfo.0.deliveryWindow.startDateUtc)}}
+                          a {{formatTime (boxendutc
+                          shippingData.logisticsInfo.0.deliveryWindow.endDateUtc)}}
+                          h
+                        </p>
+                        {{/compare}}
+                      </td>
+                    </tr>
+                  </table>
+                </td>
+              </tr>
+            </table>
+            <table
+              width="100%"
+              cellpadding="15"
+              cellspacing="0"
+              style="border-radius: 0 0 8px 8px; border: solid 1px #dfe3e8"
+            >
+              <!-- Inside Productos Orders. Begin -->
+              <tr>
+                <td>
+                  <table
+                    width=" 100%"
+                    cellpadding="0"
+                    cellspacing="0"
+                    border="0"
+                  >
+                    <!-- Titulos Productos. Begin -->
+                    <tr>
+                      <td
+                        width="20%"
+                        height="40px"
+                        align="left"
+                        valign="middle"
+                        style="border-bottom: solid 1px #dfe3e8"
+                      >
+                        <strong
+                          style="
+                            font-family: arial;
+                            font-size: 12px;
+                            font-weight: bold;
+                            color: #212b36;
+                            margin: 0;
+                            padding: 0;
+                            letter-spacing: 0;
+                            opacity: 0.48;
+                            line-height: 20px;
+                          "
+                          >Productos</strong
+                        >
+                      </td>
+                      <td
+                        width="40%"
+                        height="40px"
+                        valign="middle"
+                        style="border-bottom: solid 1px #dfe3e8"
+                      >
+                        &nbsp;
+                      </td>
+                      <td
+                        width="15%"
+                        height="40px"
+                        align="center"
+                        valign="middle"
+                        style="border-bottom: solid 1px #dfe3e8"
+                      >
+                        <strong
+                          class="hide-mobile"
+                          style="
+                            font-family: arial;
+                            font-size: 12px;
+                            font-weight: bold;
+                            color: #454f5b;
+                            margin: 0;
+                            padding: 0;
+                            letter-spacing: 0;
+                            opacity: 0.48;
+                            line-height: 20px;
+                          "
+                          >Cantidad</strong
+                        >
+                      </td>
+                      <td
+                        width="25%"
+                        height="40px"
+                        align="right"
+                        valign="middle"
+                        style="border-bottom: solid 1px #ccc"
+                      >
+                        <strong
+                          class="hide-mobile"
+                          style="
+                            font-family: arial;
+                            font-size: 12px;
+                            font-weight: bold;
+                            color: #454f5b;
+                            margin: 0;
+                            padding: 0;
+                            letter-spacing: 0;
+                            opacity: 0.48;
+                            line-height: 20px;
+                          "
+                          >Subtotal</strong
+                        >
+                      </td>
+                    </tr>
+                    <!-- Titulos Productos. End -->
+                    {{#each items}}
+                    <!-- Resumen Productos. Begin -->
+                    <tr>
+                      <td
+                        width="10%"
+                        height="70px"
+                        align="left"
+                        valign="middle"
+                      >
+                        <img
+                          style="
+                            max-width: 60px;
+                            display: block;
+                            width: 60px;
+                            height: auto;
+                          "
+                          src="{{imageUrl}}"
+                          alt="{{name}} | Chedraui"
+                        />
+                      </td>
+                      {{eval "Handlebars.registerHelper('kilostotal', function
+                      (string) { return string.measurementUnit == 'kg' ? (
+                      ((((string.unitMultiplier * 1000) * string.quantity) %
+                      1000) == 0) ? (string.unitMultiplier * string.quantity) +
+                      ' kg' : (string.unitMultiplier * 1000 * string.quantity) +
+                      ' g' ) : string.unitMultiplier + ' '+
+                      string.measurementUnit });" }} {{eval
+                      "Handlebars.registerHelper('pza', function (string) {
+                      return string.measurementUnit == 'kg' ? (string.quantity)
+                      + ' pza' : ' ' });" }}
+                      <td
+                        class="delivery-group-content-table"
+                        width="50%"
+                        height="70px"
+                        align="left"
+                        valign="middle"
+                      >
+                        <a
+                          href="https://chedrauimx.myvtex.com{{detailUrl}}"
+                          target=" _blank"
+                          rel="noopener noreferrer"
+                          style="
+                            font-family: arial;
+                            font-size: 14px;
+                            font-weight: 400;
+                            line-height: 16px;
+                            color: #212b36;
+                            text-decoration: none;
+                            display: block;
+                          "
+                          >{{name}}</a
+                        >
+                        {{eval "Handlebars.registerHelper('gramos', function
+                        (string) { return string.measurementUnit == 'kg' ? (
+                        ((((string.unitMultiplier * 1000) * 1) % 1000) == 0) ?
+                        (string.unitMultiplier) + ' kg' : (string.unitMultiplier
+                        * 1000) + ' g' ) : string.unitMultiplier + ' '+
+                        string.measurementUnit });" }}
+                        <p
+                          class="hide-mobile"
+                          style="
+                            font-family: arial;
+                            font-size: 12px;
+                            font-weight: 400;
+                            line-height: 16px;
+                            color: #6d737b;
+                            margin: 5px 0 0 0;
+                          "
+                        >
+                          $ {{formatUSDCurrency price}} - {{gramos .}}
+                        </p>
+                        <p
+                          class="mobile-box"
+                          style="
+                            font-family: arial;
+                            font-size: 12px;
+                            font-weight: 400;
+                            line-height: 16px;
+                            color: #6d737b;
+                            margin: 5px 0 0 0;
+                          "
+                        >
+                          $ {{formatUSDCurrency price}} - {{gramos .}}
+                        </p>
+                        <p
+                          class="mobile-box"
+                          style="
+                            font-family: arial;
+                            font-size: 14px;
+                            font-weight: bold;
+                            line-height: 16px;
+                            color: #212b36;
+                            margin: 5px 0 0 0;
+                          "
+                        >
+                          {{kilostotal .}}
+                          <small
+                            style="
+                              font-family: arial;
+                              font-size: 10px;
+                              font-weight: normal;
+                              line-height: 16px;
+                              color: #212b36;
+                              margin-top: 0;
+                            "
+                          >
+                            {{pza .}}
+                          </small>
+                        </p>
+                        <p
+                          class="mobile-box boxr"
+                          style="
+                            font-family: arial;
+                            font-size: 14px;
+                            font-weight: bold;
+                            line-height: 16px;
+                            color: #0077c8;
+                            margin: 5px 0 0 0;
+                          "
+                        >
+                          $ {{formatUSDCurrency priceDefinition.total}}
+                        </p>
+                      </td>
+                      <td
+                        class="hide-mobile"
+                        width="15%"
+                        height="70px"
+                        align="center"
+                        valign="middle"
+                      >
+                        <p
+                          style="
+                            font-family: arial;
+                            font-size: 14px;
+                            font-weight: bold;
+                            line-height: 16px;
+                            color: #212b36;
+                            margin-bottom: 0;
+                          "
+                        >
+                          {{kilostotal .}}
+                        </p>
+                        <p
+                          style="
+                            font-family: arial;
+                            font-size: 10px;
+                            font-weight: normal;
+                            line-height: 16px;
+                            color: #212b36;
+                            margin-top: 0;
+                          "
+                        >
+                          {{pza .}}
+                        </p>
+                      </td>
+                      <td
+                        class="hide-mobile"
+                        width="25%"
+                        height="70px"
+                        align="right"
+                        valign="middle"
+                      >
+                        <p
+                          style="
+                            font-family: arial;
+                            font-size: 14px;
+                            font-weight: bold;
+                            line-height: 16px;
+                            color: #0077c8;
+                          "
+                        >
+                          $ {{formatUSDCurrency priceDefinition.total}}
+                        </p>
+                      </td>
+                    </tr>
+                    <!-- Resumen Productos. End -->
+                    {{/each}}
+                  </table>
+                  <!-- ItemsAdded -->
+                  <table
+                    width="100%"
+                    cellpadding="0"
+                    cellspacing="0"
+                    border="0"
+                  >
+                    <!-- Titulos Productos. Begin -->
+                    {{#if changesAttachment}} {{#each
+                    changesAttachment.changesData}} {{#each itemsAdded}}
+                    <tr>
+                      <td
+                        width="60%"
+                        height="40px"
+                        align="left"
+                        valign="middle"
+                        style="border-bottom: solid 1px #dfe3e8"
+                      >
+                        <strong
+                          style="
+                            font-family: arial;
+                            font-size: 12px;
+                            font-weight: bold;
+                            color: #212b36;
+                            margin: 0;
+                            padding: 0;
+                            letter-spacing: 0;
+                            opacity: 0.48;
+                            line-height: 20px;
+                          "
+                          >Reemplazos</strong
+                        >
+                      </td>
+                      <td
+                        width="15%"
+                        height="40px"
+                        align="center"
+                        valign="middle"
+                        style="border-bottom: solid 1px #dfe3e8"
+                      >
+                        <strong
+                          class="hide-mobile"
+                          style="
+                            font-family: arial;
+                            font-size: 12px;
+                            font-weight: bold;
+                            color: #454f5b;
+                            margin: 0;
+                            padding: 0;
+                            letter-spacing: 0;
+                            opacity: 0.48;
+                            line-height: 20px;
+                          "
+                          >Cantidad</strong
+                        >
+                      </td>
+                      <td
+                        width="25%"
+                        height="40px"
+                        align="right"
+                        valign="middle"
+                        style="border-bottom: solid 1px #ccc"
+                      >
+                        <strong
+                          class="hide-mobile"
+                          style="
+                            font-family: arial;
+                            font-size: 12px;
+                            font-weight: bold;
+                            color: #454f5b;
+                            margin: 0;
+                            padding: 0;
+                            letter-spacing: 0;
+                            opacity: 0.48;
+                            line-height: 20px;
+                          "
+                          >Subtotal</strong
+                        >
+                      </td>
+                    </tr>
+                    <!-- Titulos Productos. End -->
+                    <!-- Resumen Productos. Begin -->
+                    <tr>
+                      <td
+                        width="10%"
+                        height="70px"
+                        align="left"
+                        valign="middle"
+                      >
+                        <img
+                          style="
+                            max-width: 60px;
+                            display: block;
+                            width: 60px;
+                            height: auto;
+                          "
+                          src="{{imageUrl}}"
+                          alt="{{name}} | Chedraui"
+                        />
+                      </td>
+                      <td
+                        class="delivery-group-content-table"
+                        width="50%"
+                        height="70px"
+                        align="left"
+                        valign="middle"
+                      >
+                        <a
+                          href="https://chedrauimx.myvtex.com{{detailUrl}}"
+                          target=" _blank"
+                          rel="noopener noreferrer"
+                          style="
+                            font-family: arial;
+                            font-size: 14px;
+                            font-weight: 400;
+                            line-height: 16px;
+                            color: #212b36;
+                            text-decoration: none;
+                            display: block;
+                          "
+                          >{{name}}</a
+                        >
+                        <p
+                          class="hide-mobile"
+                          style="
+                            font-family: arial;
+                            font-size: 12px;
+                            font-weight: 400;
+                            line-height: 16px;
+                            color: #6d737b;
+                            margin: 5px 0 0 0;
+                          "
+                        >
+                          $ {{formatUSDCurrency price}} - {{gramos .}}
+                        </p>
+                        <p
+                          class="mobile-box"
+                          style="
+                            font-family: arial;
+                            font-size: 12px;
+                            font-weight: 400;
+                            line-height: 16px;
+                            color: #6d737b;
+                            margin: 5px 0 0 0;
+                          "
+                        >
+                          $ {{formatUSDCurrency price}} - {{gramos .}}
+                        </p>
+                        <p
+                          class="mobile-box"
+                          style="
+                            font-family: arial;
+                            font-size: 14px;
+                            font-weight: bold;
+                            line-height: 16px;
+                            color: #212b36;
+                            margin: 5px 0 0 0;
+                          "
+                        >
+                          {{kilostotal .}}
+                          <small
+                            style="
+                              font-family: arial;
+                              font-size: 10px;
+                              font-weight: normal;
+                              line-height: 16px;
+                              color: #212b36;
+                              margin-top: 0;
+                            "
+                          >
+                            {{pza .}}
+                          </small>
+                        </p>
+                        <p
+                          class="mobile-box boxr"
+                          style="
+                            font-family: arial;
+                            font-size: 14px;
+                            font-weight: bold;
+                            line-height: 16px;
+                            color: #0077c8;
+                            margin: 5px 0 0 0;
+                          "
+                        >
+                          $ {{formatUSDCurrency price}}
+                        </p>
+                      </td>
+                      <td
+                        class="hide-mobile"
+                        width="15%"
+                        height="70px"
+                        align="center"
+                        valign="middle"
+                      >
+                        <p
+                          style="
+                            font-family: arial;
+                            font-size: 14px;
+                            font-weight: bold;
+                            line-height: 16px;
+                            color: #212b36;
+                            margin-bottom: 0;
+                          "
+                        >
+                          {{kilostotal .}}
+                        </p>
+                        <p
+                          style="
+                            font-family: arial;
+                            font-size: 10px;
+                            font-weight: normal;
+                            line-height: 16px;
+                            color: #212b36;
+                            margin-top: 0;
+                          "
+                        >
+                          {{pza .}}
+                        </p>
+                      </td>
+                      <td
+                        class="hide-mobile"
+                        width="25%"
+                        height="70px"
+                        align="right"
+                        valign="middle"
+                      >
+                        <p
+                          style="
+                            font-family: arial;
+                            font-size: 14px;
+                            font-weight: bold;
+                            line-height: 16px;
+                            color: #0077c8;
+                          "
+                        >
+                          $ {{formatUSDCurrency price}}
+                        </p>
+                      </td>
+                    </tr>
+                    <!-- Resumen Productos. End -->
+                    {{/each}} {{/each}} {{/if}}
+                  </table>
+                  <!-- ItemsRemoved -->
+                  <table
+                    width="100%"
+                    cellpadding="0"
+                    cellspacing="0"
+                    border="0"
+                  >
+                    <!-- Titulos Productos. Begin -->
+                    {{#if changesAttachment}} {{#each
+                    changesAttachment.changesData}} {{#each itemsRemoved}}
+                    <tr>
+                      <td
+                        width="60%"
+                        height="40px"
+                        align="left"
+                        valign="middle"
+                        style="border-bottom: solid 1px #dfe3e8"
+                      >
+                        <strong
+                          style="
+                            font-family: arial;
+                            font-size: 12px;
+                            font-weight: bold;
+                            color: #212b36;
+                            margin: 0;
+                            padding: 0;
+                            letter-spacing: 0;
+                            opacity: 0.48;
+                            line-height: 20px;
+                          "
+                          >No entregados</strong
+                        >
+                      </td>
+                      <td
+                        width="15%"
+                        height="40px"
+                        align="center"
+                        valign="middle"
+                        style="border-bottom: solid 1px #dfe3e8"
+                      >
+                        <strong
+                          class="hide-mobile"
+                          style="
+                            font-family: arial;
+                            font-size: 12px;
+                            font-weight: bold;
+                            color: #454f5b;
+                            margin: 0;
+                            padding: 0;
+                            letter-spacing: 0;
+                            opacity: 0.48;
+                            line-height: 20px;
+                          "
+                          >Cantidad</strong
+                        >
+                      </td>
+                      <td
+                        width="25%"
+                        height="40px"
+                        align="right"
+                        valign="middle"
+                        style="border-bottom: solid 1px #ccc"
+                      >
+                        <strong
+                          class="hide-mobile"
+                          style="
+                            font-family: arial;
+                            font-size: 12px;
+                            font-weight: bold;
+                            color: #454f5b;
+                            margin: 0;
+                            padding: 0;
+                            letter-spacing: 0;
+                            opacity: 0.48;
+                            line-height: 20px;
+                          "
+                          >Subtotal</strong
+                        >
+                      </td>
+                    </tr>
+                    <!-- Titulos Productos. End -->
+                    <!-- Resumen Productos. Begin -->
+                    <tr>
+                      <td
+                        width="10%"
+                        height="70px"
+                        align="left"
+                        valign="middle"
+                      >
+                        <img
+                          style="
+                            max-width: 60px;
+                            display: block;
+                            width: 60px;
+                            height: auto;
+                          "
+                          src="{{imageUrl}}"
+                          alt="{{name}} | Chedraui"
+                        />
+                      </td>
+                      <td
+                        class="delivery-group-content-table"
+                        width="50%"
+                        height="70px"
+                        align="left"
+                        valign="middle"
+                      >
+                        <a
+                          href="https://chedrauimx.myvtex.com{{detailUrl}}"
+                          target=" _blank"
+                          rel="noopener noreferrer"
+                          style="
+                            font-family: arial;
+                            font-size: 14px;
+                            font-weight: 400;
+                            line-height: 16px;
+                            color: #212b36;
+                            text-decoration: none;
+                            display: block;
+                          "
+                          >{{name}}</a
+                        >
+                        <p
+                          class="hide-mobile"
+                          style="
+                            font-family: arial;
+                            font-size: 12px;
+                            font-weight: 400;
+                            line-height: 16px;
+                            color: #6d737b;
+                            margin: 5px 0 0 0;
+                          "
+                        >
+                          $ {{formatUSDCurrency price}} - {{gramos .}}
+                        </p>
+                        <p
+                          class="mobile-box"
+                          style="
+                            font-family: arial;
+                            font-size: 12px;
+                            font-weight: 400;
+                            line-height: 16px;
+                            color: #6d737b;
+                            margin: 5px 0 0 0;
+                          "
+                        >
+                          $ {{formatUSDCurrency price}} - {{gramos .}}
+                        </p>
+                        <p
+                          class="mobile-box"
+                          style="
+                            font-family: arial;
+                            font-size: 14px;
+                            font-weight: bold;
+                            line-height: 16px;
+                            color: #212b36;
+                            margin: 5px 0 0 0;
+                          "
+                        >
+                          {{kilostotal .}}
+                          <small
+                            style="
+                              font-family: arial;
+                              font-size: 10px;
+                              font-weight: normal;
+                              line-height: 16px;
+                              color: #212b36;
+                              margin-top: 0;
+                            "
+                          >
+                            {{pza .}}
+                          </small>
+                        </p>
+                        <p
+                          class="mobile-box boxr"
+                          style="
+                            font-family: arial;
+                            font-size: 14px;
+                            font-weight: bold;
+                            line-height: 16px;
+                            color: #0077c8;
+                            margin: 5px 0 0 0;
+                          "
+                        >
+                          $ {{formatUSDCurrency price}}
+                        </p>
+                      </td>
+                      <td
+                        class="hide-mobile"
+                        width="15%"
+                        height="70px"
+                        align="center"
+                        valign="middle"
+                      >
+                        <p
+                          style="
+                            font-family: arial;
+                            font-size: 14px;
+                            font-weight: bold;
+                            line-height: 16px;
+                            color: #212b36;
+                            margin-bottom: 0;
+                          "
+                        >
+                          {{kilostotal .}}
+                        </p>
+                        <p
+                          style="
+                            font-family: arial;
+                            font-size: 10px;
+                            font-weight: normal;
+                            line-height: 16px;
+                            color: #212b36;
+                            margin-top: 0;
+                          "
+                        >
+                          {{pza .}}
+                        </p>
+                      </td>
+                      <td
+                        class="hide-mobile"
+                        width="25%"
+                        height="70px"
+                        align="right"
+                        valign="middle"
+                      >
+                        <p
+                          style="
+                            font-family: arial;
+                            font-size: 14px;
+                            font-weight: bold;
+                            line-height: 16px;
+                            color: #0077c8;
+                          "
+                        >
+                          $ {{formatUSDCurrency price}}
+                        </p>
+                      </td>
+                    </tr>
+                    <!-- Resumen Productos. End -->
+                    {{/each}} {{/each}} {{/if}}
+                  </table>
+                </td>
+              </tr>
+            </table>
+            <!-- Inside Productos Orders. End -->
+          </td>
+        </tr>
+        <!-- Inside Product. End -->
+        <!-- Inside Payment Summary. Begin -->
+        <tr>
+          <td>
+            <table width="100%" cellpadding="0" cellspacing="0">
+              <tr>
+                <td>
+                  <table width="100%" cellpadding="0" cellspacing="0">
+                    <tr>
+                      <td width="50%" align="left" valign="middle">
+                        <h2
+                          style="
+                            font-family: arial;
+                            font-size: 16px;
+                            font-weight: bold;
+                            color: #0077c8;
+                            margin: 0;
+                            padding: 0;
+                            line-height: 18px;
+                          "
+                        >
+                          Resumen de pago
+                        </h2>
+                      </td>
+                      <td width="50%" align="right" valign="middle">
+                        <p
+                          style="
+                            font-family: arial;
+                            font-size: 12px;
+                            font-weight: 400;
+                            color: #212b36;
+                            margin: 0;
+                            padding: 0;
+                            line-height: 14px;
+                            opacity: 0.48;
+                          "
+                        >
+                          Impuestos incluidos
+                        </p>
+                      </td>
+                    </tr>
+                  </table>
+                </td>
+              </tr>
+            </table>
+            <table
+              width="100%"
+              cellpadding="15"
+              cellspacing="0"
+              style="
+                border: solid 1px #dfe3e8;
+                border-radius: 8px 8px 0 0;
+                margin: 15px 0 0 0;
+              "
+            >
+              <!-- Inside Productos Orders. Begin -->
+              <tr>
+                <td>
+                  <table
+                    class="w-100"
+                    width="60%"
+                    cellspacing="8"
+                    cellpadding="0"
+                    align="right"
+                  >
+                    <tbody>
+                      {{#each totals}} {{#if value}}
+                      <tr>
+                        <td valign="middle" align="left">
+                          {{#eq id "Items"}}
+                          <p
+                            style="
+                              font-family: arial;
+                              font-size: 14px;
+                              font-weight: 400;
+                              color: #212b36;
+                              line-height: 20px;
+                              letter-spacing: 0;
+                              margin: 0;
+                              padding: 0;
+                            "
+                          >
+                            Subtotal
+                          </p>
+                          {{/eq}} {{#eq id "Shipping"}}
+                          <p
+                            style="
+                              font-family: arial;
+                              font-size: 14px;
+                              font-weight: 400;
+                              color: #212b36;
+                              line-height: 20px;
+                              letter-spacing: 0;
+                              margin: 0;
+                              padding: 0;
+                            "
+                          >
+                            Costo de envío
+                          </p>
+                          {{/eq}} {{#eq id "Discounts"}}
+                          <p
+                            style="
+                              font-family: arial;
+                              font-size: 14px;
+                              font-weight: 400;
+                              color: #e57308;
+                              line-height: 20px;
+                              letter-spacing: 0;
+                              margin: 0;
+                              padding: 0;
+                            "
+                          >
+                            Con Chedraui ahorras
+                          </p>
+                          {{/eq}} {{#eq id "Tax"}}
+                          <p
+                            style="
+                              font-family: arial;
+                              font-size: 14px;
+                              font-weight: 400;
+                              color: #212b36;
+                              line-height: 20px;
+                              letter-spacing: 0;
+                              margin: 0;
+                              padding: 0;
+                            "
+                          >
+                            Taxas
+                          </p>
+                          {{/eq}} {{#eq id "Change"}}
+                          <p
+                            style="
+                              font-family: arial;
+                              font-size: 14px;
+                              font-weight: 400;
+                              color: #212b36;
+                              line-height: 20px;
+                              letter-spacing: 0;
+                              margin: 0;
+                              padding: 0;
+                            "
+                          >
+                            Modificaciones
+                          </p>
+                          {{/eq}}
+                        </td>
+                        <td valign="top" align="right">
+                          {{#eq id "Items"}}
+                          <p
+                            style="
+                              font-family: arial;
+                              font-size: 14px;
+                              font-weight: 400;
+                              color: #212b36;
+                              line-height: 20px;
+                              letter-spacing: 0;
+                              margin: 0;
+                              padding: 0;
+                            "
+                          >
+                            $ {{formatUSDCurrency value}}
+                          </p>
+                          {{/eq}} {{#eq id "Shipping"}}
+                          <p
+                            style="
+                              font-family: arial;
+                              font-size: 14px;
+                              font-weight: 400;
+                              color: #212b36;
+                              line-height: 20px;
+                              letter-spacing: 0;
+                              margin: 0;
+                              padding: 0;
+                            "
+                          >
+                            $ {{formatUSDCurrency value}}
+                          </p>
+                          {{/eq}} {{#eq id "Tax"}}
+                          <p
+                            style="
+                              font-family: arial;
+                              font-size: 14px;
+                              font-weight: 400;
+                              color: #212b36;
+                              line-height: 20px;
+                              letter-spacing: 0;
+                              margin: 0;
+                              padding: 0;
+                            "
+                          >
+                            $ {{formatUSDCurrency value}}
+                          </p>
+                          {{/eq}} {{#eq id "Change"}}
+                          <p
+                            style="
+                              font-family: arial;
+                              font-size: 14px;
+                              font-weight: 400;
+                              color: #212b36;
+                              line-height: 20px;
+                              letter-spacing: 0;
+                              margin: 0;
+                              padding: 0;
+                            "
+                          >
+                            $ {{formatUSDCurrency value}}
+                          </p>
+                          {{/eq}} {{#eq id "Discounts"}}
+                          <p
+                            style="
+                              font-family: arial;
+                              font-size: 14px;
+                              font-weight: 400;
+                              color: #e57308;
+                              line-height: 20px;
+                              letter-spacing: 0;
+                              margin: 0;
+                              padding: 0;
+                            "
+                          >
+                            $ {{formatUSDCurrency value}}
+                          </p>
+                          {{/eq}}
+                        </td>
+                      </tr>
+                      {{/if}} {{/each}} {{#if value}}
+                      <tr>
+                        <td valign="top" align="left">
+                          <p
+                            style="
+                              font-family: arial;
+                              font-size: 16px;
+                              font-weight: bold;
+                              color: #0077c8;
+                              line-height: 24px;
+                              letter-spacing: 0;
+                              margin: 0;
+                              padding: 0;
+                            "
+                          >
+                            Total Pagado
+                          </p>
+                        </td>
+                        <td valign="top" align="right">
+                          <p
+                            style="
+                              font-family: arial;
+                              font-size: 16px;
+                              font-weight: bold;
+                              color: #0077c8;
+                              line-height: 24px;
+                              letter-spacing: 0;
+                              margin: 0;
+                              padding: 0;
+                            "
+                          >
+                            $ {{formatUSDCurrency value}}
+                          </p>
+                        </td>
+                      </tr>
+                      {{/if}}
+                    </tbody>
+                  </table>
+                </td>
+              </tr>
+              <!-- Inside Productos Orders. End -->
+            </table>
+            <table
+              width="100%"
+              cellpadding="15"
+              cellspacing="0"
+              style="
+                background: #f0f5fd;
+                border: solid 1px #f0f5fd;
+                border-radius: 0px;
+              "
+            >
+              <!-- Inside Productos Orders. Begin -->
+              <tr>
+                <td>
+                  <table
+                    class="w-100"
+                    width="60%"
+                    cellspacing="8"
+                    cellpadding="0"
+                    align="right"
+                  >
+                    <tbody>
+                      {{#if value}}
+                      <tr>
+                        <td valign="top" align="left">
+                          <p
+                            style="
+                              font-family: arial;
+                              font-size: 16px;
+                              font-weight: bold;
+                              color: #0077c8;
+                              line-height: 24px;
+                              letter-spacing: 0;
+                              margin: 0 0 10px 0;
+                              padding: 0;
+                            "
+                          >
+                            Total del pedido
+                          </p>
+                          <hr
+                            style="
+                              margin: 0 0 5 px 0;
+                              border: 0.5 px solid #dfe3e8;
+                              opacity: 0.35;
+                            "
+                          />
+                        </td>
+                        <td valign="top" align="right">
+                          <p
+                            style="
+                              font-family: arial;
+                              font-size: 16px;
+                              font-weight: bold;
+                              color: #0077c8;
+                              line-height: 24px;
+                              letter-spacing: 0;
+                              margin: 0 0 10px 0;
+                              padding: 0;
+                            "
+                          >
+                            $ {{formatUSDCurrency value}}
+                          </p>
+                          <hr
+                            style="
+                              margin: 0 0 5 px 0;
+                              border: 0.5 px solid #dfe3e8;
+                              opacity: 0.35;
+                            "
+                          />
+                        </td>
+                      </tr>
+                      {{/if}}
+                    </tbody>
+                  </table>
+                </td>
+              </tr>
+              <!-- Inside Productos Orders. End -->
+            </table>
+          </td>
+        </tr>
+        <!-- Inside Payment Summary. End -->
+      </tbody>
+      <!-- Content. Begin -->
+      <!-- Footer. End -->
+    </table>
+    <table
+      width="100%"
+      cellpadding="0"
+      cellspacing="0"
+      style="margin-top: 40px"
+    >
+      <tr>
+        <td width="100%" valign="middle" align="center">
+          <img
+            style="
+              display: block;
+              width: 125px;
+              max-width: 125px;
+              height: auto;
+              margin: 0 auto 15px;
+            "
+            src="https://chedrauimx.vteximg.com.br/arquivos/chedrauicom.png"
+          />
+          <p
+            style="
+              font-family: arial;
+              font-size: 10px;
+              font-weight: 400;
+              color: #212b367a;
+              line-height: 11px;
+              margin: 0;
+              padding: 0;
+            "
+          >
+            Conoce nuestros
+            <a
+              style="text-decoration: underline; color: #212b367a"
+              href="https://www.chedraui.com.mx/terminos-y-condiciones/politica-privacidad"
+              target="_blank"
+              rel="noopener noreferrer"
+              >Aviso de Privacidad</a
+            >
+            y
+            <a
+              style="text-decoration: underline; color: #212b367a"
+              href="https://www.chedraui.com.mx/terminos-y-condiciones"
+              target="_blank"
+              rel="noopener noreferrer"
+              >Términos y Condiciones</a
+            >.
+          </p>
+          <p
+            style="
+              font-family: arial;
+              font-size: 10px;
+              font-weight: 400;
+              color: #212b367a;
+              line-height: 11px;
+              margin: 8px 0;
+              padding: 0;
+            "
+          >
+            Chedraui, 2024.
+          </p>
+        </td>
+      </tr>
+    </table>
+  </body>
+</html>
